@@ -1,1 +1,1642 @@
-do local a=[[77fuscator 0.4.9 - discord.gg/CEHsVcBcuf]];return(function(b,c,d,e,f,g,h)local i=1738;local j=32;local k=869;local l=597;local m=546;local n=8;local o=6;local p=31;local q=29940;local r=16970;local s=180;local t=1194;local u=48533;local v=447;local w=1256;local x=562;local y=7;local z=401;local ba=119;local bb=652;local bc=36;local bd=11;local be=2;local bf=10;local bg=4;local bh=9;local bi=5;local bj=3;local bk=1;local bl,bm,bn,bo,bp=string.sub,table.concat,string.char,tonumber,next;local bq=0;local br;br=function(bs)local bt,bu,bv,bw,bx,by,bz,ca,ca;local ca=bq local cb=256;while true do ca=ca+bk if(ca<bi or ca==bi)then if(ca==bj or ca>bj)then if(ca==bg or ca>bg)then if ca<bi then for cc=bq,(bw-bk)do local cd=bq while true do cd=cd+bk if not(cd~=bk)then bx[cc]=bn(cc);else break end end end;else by=bk end else bx={}end else if not(ca~=bk)then bt,bu,bv=h,h,{}else bw=cb end end else if(ca==bh or ca>bh)then if(ca==bf or ca>bf)then if(ca<bd)then return bm(bv);else break end else while((by<#bs)and not(#a~=d))do local a;local d=bq while true do d=d+bk if(d<be or d==be)then if(d>bk)then if bx[a]then local bd=bq while true do bd=(bd+bk)if not(bd~=be)then break else bu=bx[a];end end else local bd=bq while true do bd=bd+bk if not(bd~=be)then break else bu=(bt..bl(bt,bk,bk));end end end;else a=bz()end else if(d==bg or d>bg)then if d>bg then break else bv[(#bv+bk)],bt,bw=bu,bu,bw+bk;end else bx[bw]=(bt..bl(bu,bk,bk));end end end end;end else if(ca==y or ca>y)then if not(ca~=y)then bt=bn(bz());else bv[bk]=bt;end else bz=function()local a=bo(bl(bs,by,by),bc);by=by+bk;local d=bo(bl(bs,by,by+a-bk),bc);by=by+a;return d;end end end end end end local a=br(b);local b,d,y,bd,bf,bf,bl,bm,bn,bo,bp,br,bs,bt,bu,bu,bv,bw,bw,bx,by,by,bz,bz,bz,ca,ca,ca=string.byte,string.char,string.sub,table.concat,((math.ldexp or(function(b,d)return(b*((be^d)));end))),(getfenv or function()return _ENV end),setmetatable,select,next,math.floor,string.format,unpack,tonumber,table.insert,string.gmatch,tostring,type,_VERSION,pcall,string.match,string.find,((debug.getinfo or debug.info)),string.len,rawset,string.gsub,math.random,(function(b,d)for y,bd in bp,b do if not(y~=d)then return y;end;end;return nil;end),rawget;c={y,bn,bx,bw,bl,d,bf,bd,bu,by,bp,bs,};local c=bv;local i,k=bk,((-ba+(function()local u=u;local ba=bb;local w=w;local bb=be;local l=l;local t=t;local x=x;local z=z;local v=v;local bn=bj;local r=r;local m=m;local k=k;local i=i;local q=q;local s=s;local bp=bk;local bs=bq;local bu,bv=bs,bp;local i=(function(bw,bx)bx(bw(bx,bx),bx(bx,((bw and bw))))end)(function(bw,bx)if(bu>s)then local s=bs while true do s=s+bp if not(not(s==bp))then return bx else break end end end bu=bu+bp bv=((((bv+m)))%q)if((((bv%i))>k)or not(((bv%i))~=k))then local i=bs while true do i=(i+bp)if((not(i~=bp)or(i<bp)))then bv=((bv*x))%r else if(i<bn)then return bx(bx(bw,(bw and bw)),bx(bx,(bx and bx)))else break end end end else local i=bs while true do i=((i+bp))if not(not(i==bp))then return bx else break end end end return bx end,function(i,k)if(bu>v)then local m=bs while true do m=((m+bp))if(m>bp)then break else return i end end end bu=(bu+bp)bv=((((bv+z)))%w)if(((bv%t))>l)then local l=bs while true do l=(l+bp)if((not(l~=bb)or l>bb))then if(l>bb)then break else return k(i(k,i),i(k,i))end else bv=(((bv-ba)%u))end end else local i=bs while true do i=((i+bp))if not(not(i==bp))then return k else break end end end return k end)return bv;end)()));local l;l=function(m,q)local r,s,s,s;local s=bq while true do s=(s+bk)if(s<be or s==be)then if not(s~=be)then for t=bq,p do local u,v;local w=bq while true do w=w+bk if(w==bg or w>bg)then if(w==bg or w<bg)then q=(q/be)else if(w<o)then m=m/be else break end end else if(w>be or w==be)then if w>be then if not(u~=bq)then local o=bq while true do o=(o+bk)if not(o~=be)then break else if not(v~=bk)then local o=bq while true do o=o+bk if(o<bk or o==bk)then q=q-bk else if not(o~=be)then r=r+be^t else break end end end end end end else local o=bq while true do o=o+bk if(o<bk or o==bk)then m=m-bk else if not(o~=bj)then break else if not(v~=bq)then local o=bq while true do o=o+bk if not(o~=bk)then r=(r+be^t)else break end end else local o=bq while true do o=o+bk if not(o~=bk)then q=(q-bk)else break end end end end end end end else v=(q%be)end else u=(m%be)end end end end else r=bq end else if(s<bg)then return r else break end end end end local m;m=function(o,q)local r=bq while true do r=r+bk if not(r~=be)then break else return((o*(2^q)));end end end local o=772;local q=661;local r=709;local s=775;local t=687;local t=337;local t=278;local t;t=function()local u,v;local w=bq while true do w=(w+bk)if(w==be or w<be)then if(w<be)then u,v=b(a,i,(i+be))else u,v=l(u,k),l(v,k);end else if(w<bj or w==bj)then i=i+be;else if not(w~=bg)then return((m(v,n))+u);else break end end end end end local k;k=function(u,v)local w=bq while true do w=w+bk if not(w~=bk)then return bo(u/(be^v));else break end end end local k=((be^j)-bk);local u;u=function(v,w)local x=0 while true do x=(x+bk)if not(x~=be)then break else return(((v+w))-l(v,w))/2 end end end local v=t();local w;w=function(x,z)local ba=0 while true do ba=ba+bk if not(ba~=bk)then return k-u(k-x,(k-z))else break end end end local k;k=function(u,w,x)local z;local z=0 while true do z=z+1 if z>1 then break else if x then local z;local ba=bq while true do ba=ba+bk if(ba<bk or ba==bk)then z=((u/(be^(w-bk))))%be^((((x-bk))-(w-bk))+bk)else if(ba<bj)then return(z-(z%bk))else break end end end else local x;local z=bq while true do z=z+bk if(z<bk or z==bk)then x=(be^((w-bk)))else if not(z~=be)then return(((u%((x+x))>x or u%((x+x))==x))and bk or bq)else break end end end end end end end local t=t();local t;t=function()local u,w,x,z;local ba=0 while true do ba=(ba+1)if(ba==bj or ba>bj)then if(ba<3 or ba==3)then i=(i+bg);else if not(ba~=5)then break else return((((m(z,24)+m(x,16))+m(w,n)))+u);end end else if(ba<be)then u,w,x,z=b(a,i,(i+3))else u,w,x,z=l(u,v),l(w,v),l(x,v),l(z,v);end end end end local n;n=function()local u;local w=0 while true do w=(w+1)if(w==3 or w>3)then if w<4 then return u;else break end else if not(w~=2)then i=i+bk;else u=l(b(a,i,i),v)end end end end local u,w,x;u=(-20276+(function()local z=1306;local ba=653;local bb=528;local bn=1597;local bo=41;local bp=108;local bs=264;local bu=319;local bv=29823;local bw=459;local bx=1660;local by=830;local ca=777;local cb=27857;local cc=1452;local cd=163;local ce=726;local cf=18201;local cg=2;local ch=78;local ci=187;local cj=1;local ck=0;local cl,cm=ck,cj;local z=(function(cn,co,cp,cq)co(cq(cp,co,co,cp),cq(cn,cq,cp,cn),cn(co,co,co,co),(cn(cq,co,co,cn)and cp(cn,(co and cn),cn,co)))end)(function(cn,co,cp,cq)if cl>ci then local ci=ck while true do ci=((ci+cj))if((ci<cg))then return cn else break end end end cl=cl+cj cm=(((cm-ch))%cf)if((cm%cc)>ce or not((cm%cc)~=ce))then local cc=ck while true do cc=cc+cj if((cc<cg))then return co else break end end else local cc=ck while true do cc=((cc+cj))if(cc<cg)then return co(cq((co and co),cq,co,co),cn(co,cq,cp,(cq and cn)),co(cp,cp,cn,cp),cn(co,co,cn,cp))else break end end end return cp(cn(cp,co,cp,cq),co((cp and cq),cn,cq,(co and co)),(cp(cp,cp,cq,cn)and cp(co,cp,cp,co)),cp(cn,co and cq,((co and cn)),cq))end,function(cc,ce,cf,ch)if(cl>cd)then local cd=ck while true do cd=(cd+cj)if not(not(cd==cg))then break else return ch end end end cl=((cl+cj))cm=((cm*ca))%cb if((((cm%bx)<by)or not((cm%bx)~=by)))then local bx=ck while true do bx=(bx+cj)if not(not(bx==cj))then return cc else break end end else local bx=ck while true do bx=(bx+cj)if(bx>cj)then break else return ce(ch(ce,cf,ch,cc and ce),ch(cc,ce,cf,cc),ce(cc,ce,ch,(cf and cf)),ch(ce,ce,ce,ch))end end end return cc(cf(ch,ce,cf,((ce and cc))),cc(cf,ch and ch,ce,ch),cc(ch,ce,ce,cc),cc(cf,ce,cf,((ch and ch))))end,function(bx,by,ca,cb)if((cl>bw))then local bw=ck while true do bw=((bw+cj))if not(not(bw==cg))then break else return by end end end cl=(cl+cj)cm=((cm*bu)%bv)if((cm%bb))>bs then local bb=ck while true do bb=(bb+cj)if((bb<cg))then return by(cb(by,ca,ca,ca and by),by(bx,bx,ca,(by and cb)),cb(cb,bx,by,cb),ca(cb,ca,by,(cb and by)))else break end end else local bb=ck while true do bb=(bb+cj)if not(not(bb==cj))then return bx else break end end end return cb end,function(bb,bs,bu,bv)if((cl>bp))then local bp=ck while true do bp=((bp+cj))if not(not(bp==cj))then return bs else break end end end cl=(cl+cj)cm=((cm-bo))%bn if((cm%z))<ba then local z=ck while true do z=z+cj if(z>cj)then break else return bu(bs(bb,bv,bb,bv),bu(bu,bv,bb,(bb and bs)),bu(bs,bb,((bb and bb)),bb),bs(bu,bu and bv,bb,bs))end end else local z=ck while true do z=(z+cj)if(z>cj)then break else return bu end end end return bs end)return cm;end)());w=((-12138+(function()local z=40219;local ba=640;local bb=468;local bn=320;local bo=47636;local bp=346;local bs=25737;local bu=292;local bv=3;local bw=1476;local bx=81;local by=738;local ca=36132;local cb=920;local cc=2;local cd=126;local ce=387;local cf=774;local cg=18661;local ch=270;local ci=463;local cj=1;local ck=0;local cl,cm=ck,cj;local z=(function(cn,co,cp)cp(co(co,cn,co),cn(co,cp,cn),((cp(cp,co,co)and co(co,cp,(cp and co)))))end)(function(cn,co,cp)if(cl>ci)then local ci=ck while true do ci=ci+cj if(ci<cc)then return cn else break end end end cl=((cl+cj))cm=(((cm*ch))%cg)if(cm%cf)>ce then local ce=ck while true do ce=(ce+cj)if((ce>cj))then break else return cn end end else local ce=ck while true do ce=(ce+cj)if not(not(ce==cj))then return co((cn(co,co,cn and cp)and co(cp,((co and cp)),cn)),cn(cp,cp,co),cp(cn,(co and cp),cp))else break end end end return cp((cp(cp,cp,cn)and co((cp and cn),cp,(cp and cp))),cn(co,co,cp),co(co,cp,cn))end,function(ce,cf,cg)if cl>cd then local cd=ck while true do cd=(cd+cj)if not(not(cd==cj))then return ce else break end end end cl=((cl+cj))cm=((((cm-cb))%ca))if(((((cm%bw))>by)or not(((cm%bw))~=by)))then local bw=ck while true do bw=((bw+cj))if(bw<cj or not(bw~=cj))then cm=((cm-bx))%bs else if(bw<bv)then return cf else break end end end else local bs=ck while true do bs=bs+cj if((bs>cj))then break else return ce(ce(ce,cg,ce),cf(cf,cg,cg),cf(cf,cg,cg))end end end return cg(ce(ce,ce,ce)and ce(cg,ce,ce),cg(cg,cg,cf),cf(ce,ce,cf))end,function(bs,bv,bw)if(cl>bu)then local bu=ck while true do bu=((bu+cj))if not(not(bu==cj))then return bv else break end end end cl=((cl+cj))cm=(((cm+bp))%bo)if((((cm%ba))<bn))then local ba=ck while true do ba=((ba+cj))if(((ba>cc)or not(ba~=cc)))then if not(not(ba==cc))then return bw else break end else cm=(cm-bb)%z end end else local z=ck while true do z=(z+cj)if((z>cj))then break else return bv(bs(bv,bv,bw),bv(bs,bv,bs),bs(bv,bv,bw))end end end return bw((bw(bw,bs,bs)and bw(bv,bv,bs)),bs(bw,bs,bv and bw),bv(bw,bv,(bv and bv)))end)return cm;end)()));x=((-4561+(function()local z=106;local ba=176;local bb=246;local bn=123;local bo=32382;local bp=118;local bs=688;local bu=5356;local bv=937;local bw=439;local bx=3;local by=2;local ca=8038;local cb=1874;local cc=950;local cd=1;local ce=132;local cf=0;local cg,ch=cf,1;local z=(function(ci,cj)ci(cj(ci,ci),ci(ci,cj))end)(function(ci,cj)if((cg>ce))then local ce=cf while true do ce=(ce+cd)if not(not(ce==cd))then return ci else break end end end cg=(cg+cd)ch=(ch+cc)%ca if((ch%cb))<bv then local bv=cf while true do bv=((bv+cd))if(((bv>by)or not(bv~=by)))then if((bv<bx))then return ci((cj(cj,cj)and ci(ci and cj,ci)),ci(cj,(ci and cj)))else break end else ch=(((ch+bw)%bu))end end else local bu=cf while true do bu=((bu+cd))if((bu>cd))then break else return cj end end end return cj end,function(bu,bv)if(cg>bp)then local bp=cf while true do bp=bp+cd if(bp>cd)then break else return bu end end end cg=(cg+cd)ch=((ch*bs)%bo)if((not(((ch%bb))~=bn)or((ch%bb)>bn)))then local bb=cf while true do bb=(bb+cd)if((bb<cd or not(bb~=cd)))then ch=((ch+ba))%z else if not(not(bb==by))then return bv(bv(bv,bu),bu(bu,bu))else break end end end else local z=cf while true do z=(z+cd)if(z<by)then return bv else break end end end return bv end)return ch;end)()));local z;z=function()local ba,bb,bn,bo,bp,bs;local bu=0 local bv=52;local bw=1023;while true do bu=(bu+1)if(bu==bg or bu<bg)then if(bu==be or bu<be)then if not(bu~=2)then if not(ba~=0)and not(bb~=bq)then local bx=0 while true do bx=bx+bk if bx<be then return bq;else break end end end;else ba,bb=t(),t()end else if not(bu~=4)then bo=((k(bb,bk,20)*(be^j)))+ba else bn=1 end end else if(bu>7 or bu==7)then if(bu==8 or bu>8)then if bu<bh then return(bs*(be^((bp-bw)))*(bn+((bo/(2^bv)))))else break end else if(not(bp~=bq))then local j=bq while true do j=j+bk if not(j~=be)then break else if(not(bo~=bq))then local j=bq while true do j=j+bk if not(j~=be)then break else return(bs*bq);end end else local j=bq while true do j=j+bk if(j==be or j>be)then if not(j~=be)then bn=bq;else break end else bp=bk;end end end;end end elseif(not(bp~=2047))then local j=bq while true do j=(j+bk)if not(j~=be)then break else if(not(bo~=bq))then local j=bq while true do j=j+bk if(j>bk)then break else return bs*(bk/bq);end end else local j=bq while true do j=(j+bk)if(j>bk)then break else return(bs*(bq/bq));end end end;end end end;end else if(bu>bi)then bs=((-1)^k(bb,32))else bp=k(bb,21,p)end end end end end local j="\46";local p;p=function()local ba,bb;local bh=0 while true do bh=bh+1 if(bh>3 or bh==3)then if(bh<bj or bh==bj)then i=(i+2);else if bh<5 then return((m(bb,8))+ba);else break end end else if not(bh~=1)then ba,bb=b(a,i,i+2)else ba,bb=l(ba,v),l(bb,v);end end end end local m=t;local ba;ba=function()local bb,bh,bn,bo,bp,bs,bu,bv,bw,bx,by,ca,cb,cc,cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn,co,cp,cq,cr,cs,ct,cu,cv,cw,cx,cy,cz,da,db,dc,dd,de,df,dg,dh,di,dj,dk;local dl=0 local dm=50;local dn=46;local _do=44;local dp=13;local dq=27;local dr=29;local ds=424;local dt=33;local du=2442;local dv=848;while true do dl=dl+1 if(dl>26 or dl==26)then if(dl==37 or dl<37)then if(dl==32 or dl>32)then if(dl==35 or dl>35)then if(dl<35 or dl==35)then cx=444 else if not(dl~=bc)then cy=dv else cz=du end end else if(dl>dt or dl==dt)then if not(dl~=34)then cw=611 else cv=ds end else cu=1475 end end else if(dl==29 or dl>29)then if(dl==dr or dl<dr)then cr=15339 else if not(dl~=31)then ct=43 else cs=9 end end else if(dl>dq or dl==dq)then if not(dl~=27)then cp=4 else cq=dp end else co=37816 end end end else if(dl>44 or dl==44)then if(dl==46 or dl<46)then if(dl<_do or dl==_do)then dg=0 else if dl<dn then dh=cx else di=2 end end else if(dl==49 or dl>49)then if not(dl~=dm)then break else while(dj<di)do local bc=bq while true do bc=(bc+bk)if(bc>bj or bc==bj)then if(bc<bj or bc==bj)then dh=(((dh*bo)))else if(bc>bg)then break else if((dj>bh))then local cx=bq while true do cx=(cx+bk)if(cx>bk)then break else break;end end end;end end else if bc>bk then while((dj<df)and(((dh%de))<dc))do local bc;local cx=bq while true do cx=cx+bk if(cx==be or cx<be)then if(cx<be)then dh=(dh*db)else bc=(dj+dh)end else if(cx>bg or cx==bg)then if cx<bi then dj=dj+dd;else break end else if(((dh%cz))>cl or not(((dh%cz))~=cl))then local bc=bq while true do bc=bc+bk if(bc==be or bc>be)then if(bc>be)then break else while((dj<cw)and((((dh%cy))<cv)))do local bc;local cv=bq while true do cv=(cv+bk)if(cv<be or cv==be)then if not(cv~=be)then bc=(dj+dh)else dh=(dh+ct)end else if(cv==bg or cv>bg)then if not(cv~=bi)then break else dj=(dj+dd);end else if(not(((dh%cf))~=cu)or(((dh%cf)))<cu)then local bc;local bi=bq while true do bi=(bi+bk)if(bi>bj or bi==bj)then if not(bi~=bg)then break else if not dk[bc]then local ct=0 while true do ct=ct+1 if(ct==1 or ct<1)then dk[bc]=dd;else if ct>2 then break else return bz(bb,j,function(ct)return d(b(ct))end);end end end end end else if not(bi~=2)then bc=cr else dh=(((dh*cs)))end end end elseif not(not((dh%cp)~=dg))then local bc;local bi=0 while true do bi=(bi+1)if(bi>3 or bi==3)then if not(bi~=4)then break else if not dk[bc]then local cr,cs;local ct=0 while true do ct=ct+1 if(ct<3 or ct==3)then if(ct<1 or ct==1)then dk[bc]=dd;else if(ct<3)then cr,cs=m(),h else if not(not(cr==dg))then local m=0 while true do m=(m+1)if(m>1)then break else return h;end end end;end end else if(ct>6 or ct==6)then if not(ct~=6)then return bz(bb,j,function(m)return d(b(m))end);else break end else if not(ct~=4)then bb=y(a,i,((i+cr)-dd));else i=((i+cr));end end end end end end else if(bi<2)then dh=((dh+cq))else bc=co end end end else local a;local i=0 while true do i=i+1 if(i<2 or i==2)then if(i>1)then dj=((dj+dd))else dh=(((dh+cm)))end else if(i==4 or i>4)then if not(i~=4)then if not dk[a]then local i=0 while true do i=i+1 if(i>2 or i==2)then if(i<3)then return bz(bb,j,function(i)return d(b(i))end);else break end else dk[a]=dd;end end end else break end else a=cn end end end end;end end end end end else dh=(((dh-da)))end end elseif not(not(dh%cp~=dg))then local a=0 while true do a=(a+1)if(a==1 or a<1)then dh=(dh*cj)else if not(a~=2)then while(dj<ck)and(((dh%cd)<ca))do local a;local i=0 while true do i=(i+1)if(i==3 or i>3)then if(i==3 or i<3)then if(((dh%ch)))>cg then local m;local y=0 while true do y=y+1 if(y==2 or y<2)then if(y>1)then m=cb else dh=((dh-ce))end else if y<4 then if not dk[m]then local y=0 while true do y=y+1 if(y==1 or y<1)then dk[m]=dd;else if not(y~=3)then break else return bz(bb,j,function(m)return d(b(m))end);end end end end else break end end end elseif not(not((dh%cp)~=dg))then local m;local y=0 while true do y=(y+1)if(y>3 or y==3)then if y>3 then break else if not dk[m]then local bc=0 while true do bc=bc+1 if(bc>2 or bc==2)then if not(bc~=2)then return bz(bb,j,function(bc)return d(b(bc))end);else break end else dk[m]=dd;end end end end else if not(y~=1)then dh=((dh+bw))else m=cc end end end else local m;local y=0 while true do y=(y+1)if(y==2 or y<2)then if y<2 then dh=((dh+ce))else dj=dj+dd end else if(y>4 or y==4)then if y<5 then if not dk[m]then local y=0 while true do y=(y+1)if(y==1 or y<1)then dk[m]=dd;else if(y>2)then break else return bz(bb,j,function(y)return d(b(y))end);end end end end else break end else m=bx end end end end;else if not(i~=4)then dj=dj+dd;else break end end else if not(i~=2)then a=(dj+dh)else dh=((dh+ci))end end end end else break end end end else local a=0 while true do a=(a+1)if(a==3 or a>3)then if(a<4)then while((dj<by)and((dh%64)<bn))do local i;local m=0 while true do m=m+1 if(m<2 or m==2)then if not(m~=2)then i=(dj+dh)else dh=((dh+87))end else if(m==3 or m<3)then if((not((dh%bv)~=3155)or(dh%bv)<3155))then local i;local y=0 while true do y=y+1 if(y==3 or y>3)then if not(y~=3)then if not dk[i]then local bc=0 while true do bc=bc+1 if(bc==2 or bc>2)then if bc<3 then return bz(bb,j,function(bc)return d(b(bc))end);else break end else dk[i]=1;end end end else break end else if not(y~=1)then dh=((dh*bu))else i=81005 end end end elseif not(not((dh%cp)~=0))then local i;local y=0 while true do y=y+1 if(y<2 or y==2)then if(y<2)then dh=((dh-bp))else i=bs end else if not(y~=4)then break else if not dk[i]then local y=0 while true do y=(y+1)if(y==2 or y>2)then if y<3 then return bz(bb,j,function(y)return d(b(y))end);else break end else dk[i]=dd;end end end end end end else local i;local y=0 while true do y=(y+1)if(y>3 or y==3)then if(y<3 or y==3)then i=62852 else if not(y~=5)then break else if not dk[i]then local bc=0 while true do bc=bc+1 if(bc<1 or bc==1)then dk[i]=1;else if(bc>2)then break else return bz(bb,j,function(i)return d(b(i))end);end end end end end end else if not(y~=2)then dj=(dj+dd)else dh=(dh*13)end end end end;else if(m<5)then dj=dj+dd;else break end end end end end else break end else if a<2 then dh=((dh-59))else dj=dj+dd end end end end;end end end end else dj=dj+dd;end end end end;end else if(dl>47)then dk={}else dj=dg end end end else if(dl==41 or dl>41)then if(dl==41 or dl<41)then dd=1 else if not(dl~=43)then df=870 else de=984 end end else if(dl<38 or dl==38)then da=96 else if not(dl~=40)then dc=492 else db=49 end end end end end else if(dl<12 or dl==12)then if(dl>7 or dl==7)then if(dl==10 or dl>10)then if(dl<10 or dl==10)then bx=72061 else if not(dl~=12)then ca=94 else by=462 end end else if(dl<7 or dl==7)then bu=7 else if not(dl~=8)then bv=6310 else bw=21 end end end else if(dl==3 or dl<3)then if(dl>2 or dl==2)then if dl<3 then bh=25 else bn=32 end else bb=h end else if(dl==5 or dl>5)then if not(dl~=5)then bp=22 else bs=4071 end else bo=727 end end end else if(dl==18 or dl<18)then if(dl==16 or dl>16)then if(dl<16 or dl==16)then ce=39 else if not(dl~=18)then cg=1641 else cf=2950 end end else if(dl>14 or dl==14)then if not(dl~=15)then cd=188 else cc=92264 end else cb=61931 end end else if(dl==22 or dl>22)then if(dl==24 or dl>24)then if not(dl~=24)then cm=53 else cn=60786 end else if not(dl~=23)then cl=1221 else ck=894 end end else if(dl<19 or dl==19)then ch=3282 else if dl<21 then ci=50 else cj=84 end end end end end end end end local a=t;local a;a=function(...)local h=0 while true do h=(h+bk)if not(h~=bk)then return{...},bm("\35",...)else break end end end local h;h=function()local i,m,y,bb,bc,bh,bi,bi,bi,bi,bn,bo,bp,bs,bu,bv,bw,bx,by,ca,cb,cc,cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn,co,cp,cq,cr,cs,ct,cu,cv,cw,cx,cy,cz,da,db,dc,dd,de,df,dg,dh,di,dj,dk,dl,dm,dm,dm,dm,dn,_do,dp,dq,dr,ds,dt,du,dv,dw,dx,dy,dz,ea,eb,ec,ed,ee,ef,eg,eh,ei,ej,ek,el,em,en,eo,ep,eq,er,es,et,eu,ev,ew,ex,ey,ez,fa,fb,fc,fd,fe,ff;local ff=0 local fg=104;local fh=98;local fi=96;local fj=811;local fk=101;local fl=99;local fm=82;while true do ff=ff+1 if(ff>55 or ff==55)then if(ff>fm or ff==fm)then if(ff>96 or ff==96)then if(ff<102 or ff==102)then if(ff>fl or ff==fl)then if(ff==fk or ff>fk)then if not(ff~=fk)then ez=370 else fa=fj end else if ff>99 then ey=72 else ex=11296 end end else if(ff==fi or ff<fi)then eu=bk else if ff<fh then ev=24 else ew=254 end end end else if(ff<105 or ff==105)then if(ff<103 or ff==103)then fb=0 else if(ff>fg)then fd=6 else fc=fb end end else if(ff==108 or ff>108)then if not(ff~=109)then break else return bc;end else if(ff>106)then while(fc<fd)do local fd=bq while true do fd=(fd+bk)if(fd<be or fd==be)then if not(fd~=bk)then fc=(fc+eu);else while(fc<ew and(fa%et)<ez)do local ew;local ez=bq while true do ez=(ez+bk)if(ez==bj or ez>bj)then if(ez==bg or ez>bg)then if not(ez~=bg)then fc=fc+bk;else break end else if((((fa%ex))>eo))then local ex=bq while true do ex=(ex+bk)if(ex>be or ex==be)then if not(ex~=bj)then break else while((((fc<es))and((fa%ei))<en))do local bj;local bq=bq while true do bq=(bq+bk)if(bq<be or bq==be)then if not(bq~=be)then bj=(fc+fa)else fa=((fa+er))end else if(bq>4 or bq==4)then if bq>bg then break else fc=((fc+eu));end else if((not((fa%eq)~=ep)or(((fa%eq))<ep)))then local be;local bg=0 while true do bg=(bg+1)if(bg>3 or bg==3)then if not(bg~=3)then if not fe[be]then local bj=0 while true do bj=(bj+1)if bj>1 then break else fe[be]=eu;end end end else break end else if not(bg~=2)then be=ek else fa=((fa+em))end end end elseif not(not(((fa%el))~=fb))then local be;local bg=0 while true do bg=(bg+1)if(bg==2 or bg<2)then if bg<2 then fa=(((fa*ed)))else be=ee end else if not(bg~=4)then break else if not fe[be]then local bg=0 while true do bg=(bg+1)if not(bg~=1)then fe[be]=eu;else break end end end end end end else local be;local bg=0 while true do bg=bg+1 if(bg==3 or bg>3)then if(bg==4 or bg>4)then if not(bg~=4)then if not fe[be]then local bj=0 while true do bj=(bj+1)if(bj==2 or bj>2)then if bj<3 then bc[x]=nil else break end else fe[be]=eu;end end end else break end else be=dz end else if bg<2 then fa=((fa*ej))else fc=((fc+eu))end end end end;end end end end end else fa=((fa+ev))end end elseif not(not((fa%el)~=fb))then local be=0 while true do be=be+1 if(be==2 or be>2)then if not(be~=3)then break else while fc<eg and((fa%ef<ea))do local be;local bg=0 while true do bg=bg+1 if(bg==3 or bg>3)then if(bg==3 or bg<3)then if((not(((fa%ec))~=eb)or(((fa%ec))>eb)))then local bj;local bk=0 while true do bk=bk+1 if(bk>3 or bk==3)then if(bk>3)then break else if not fe[bj]then local bq=0 while true do bq=(bq+1)if(bq==2 or bq>2)then if not(bq~=2)then bc[x]=nil else break end else fe[bj]=eu;end end end end else if not(bk~=1)then fa=(fa*dx)else bj=_do end end end elseif not(not(((fa%el))~=fb))then local bj;local bk=0 while true do bk=bk+1 if(bk==2 or bk<2)then if not(bk~=1)then fa=(((fa*dw)))else bj=du end else if not(bk~=4)then break else if not fe[bj]then local bk=0 while true do bk=(bk+1)if(bk==1 or bk<1)then fe[bj]=eu;else if not(bk~=3)then break else bc[x]=nil end end end end end end end else local bj;local bk=0 while true do bk=(bk+1)if(bk>3 or bk==3)then if(bk==3 or bk<3)then bj=31508 else if(bk>4)then break else if not fe[bj]then local bq=0 while true do bq=(bq+1)if(bq>2 or bq==2)then if bq<3 then bc[x]=nil else break end else fe[bj]=1;end end end end end else if not(bk~=2)then fc=((fc+eu))else fa=((fa*dv))end end end end;else if not(bg~=4)then fc=(fc+eu);else break end end else if bg<2 then fa=((fa*dy))else be=(fc+fa)end end end end end else fa=(fa-eh)end end else local be=0 while true do be=(be+1)if(be==3 or be>3)then if not(be~=4)then break else while(((fc<ds)and((fa%592)<dm)))do local bg;local bj=0 while true do bj=(bj+1)if(bj>3 or bj==3)then if(bj==4 or bj>4)then if bj>4 then break else fc=fc+eu;end else if(not((((fa%14180)))~=7090)or(((fa%14180))>7090))then local bk;local bq=0 while true do bq=bq+1 if(bq==2 or bq<2)then if bq<2 then fa=(((fa-dq)))else bk=dp end else if bq<4 then if not fe[bk]then local bq=0 while true do bq=(bq+1)if(bq<1 or bq==1)then fe[bk]=eu;else if not(bq~=3)then break else bc[x]=nil end end end end else break end end end elseif not(not((fa%el)~=fb))then local bk;local bq=0 while true do bq=bq+1 if(bq==3 or bq>3)then if(bq<4)then if not fe[bk]then local ev=0 while true do ev=(ev+1)if(ev<1 or ev==1)then fe[bk]=1;else if ev>2 then break else bc[x]=nil end end end end else break end else if(bq>1)then bk=47249 else fa=((fa*em))end end end else local bk;local bq=0 while true do bq=bq+1 if(bq<2 or bq==2)then if not(bq~=2)then fc=(fc+eu)else fa=(((fa*27)))end else if(bq==4 or bq>4)then if not(bq~=5)then break else if not fe[bk]then local bq=0 while true do bq=(bq+1)if(bq==2 or bq>2)then if not(bq~=3)then break else do local bq=0 while true do bq=bq+1 if(bq==2 or bq>2)then if bq<3 then bc[x]=nil;else break end else for bq=1,#bc[u]do local ev,ex,fb,fg;local fh=0 while true do fh=(fh+1)if(fh==4 or fh>4)then if(fh<4 or fh==4)then if not(not(not(c(fb)~=g)))then local fi=0 while true do fi=(fi+1)if(fi==1 or fi<1)then fb=bz(fb,j,function(fj,fk)return d(l(b(fj),v))end)else if fi>2 then break else ev[r]=fb end end end end else if not(fh~=6)then break else if not(not(c(fg)==g))then local fi=0 while true do fi=(fi+1)if(fi<1 or fi==1)then fg=bz(fg,j,function(fj,fk,fk)return d(l(b(fj),v))end)else if not(fi~=2)then ev[s]=fg else break end end end end;end end else if(fh==1 or fh<1)then ev=bc[u][bq]else if not(fh~=2)then ex,fb,fg=ev[q],ev[r],ev[s]else if not(not(not(c(ex)~=g)))then local c=0 while true do c=c+1 if(c<1 or c==1)then ex=bz(ex,j,function(g,j)return d(l(b(g),v))end)else if c<3 then ev[q]=ex else break end end end end end end end end end;end end end;end else fe[bk]=eu;end end end end else bk=59812 end end end end;end else if bj>1 then bg=(fc+fa)else fa=((fa*dr))end end end end end else if(be>1)then fc=(fc+eu)else fa=(fa*dt)end end end end;end else if(ez<2)then fa=(fa+ey)else ew=(fc+fa)end end end end end else if(fd==4 or fd>4)then if not(fd~=4)then if fc>dn then local b=0 while true do b=(b+1)if(b>1)then break else break;end end end;else break end else fa=((fa+1010))end end end end;else fe={}end end end end else if(ff==88 or ff<88)then if(ff==85 or ff>85)then if(ff==86 or ff<86)then if not(ff~=86)then ek=50967 else ej=14 end else if ff<88 then el=4 else em=37 end end else if(ff==83 or ff>83)then if not(ff~=84)then ei=162 else eh=43 end else eg=236 end end else if(ff==91 or ff<91)then if(ff>90 or ff==90)then if not(ff~=91)then ep=6792 else eo=5648 end else en=81 end else if(ff==94 or ff>94)then if not(ff~=95)then et=740 else es=536 end else if(ff<93)then eq=13584 else er=85 end end end end end else if(ff<67 or ff==67)then if(ff==61 or ff>61)then if(ff==63 or ff<63)then if(ff<61 or ff==61)then while(fc<dl)do local b=0 while true do b=b+1 if(b>3 or b==3)then if(b==4 or b>4)then if b<5 then if fc>bn then local c=0 while true do c=c+1 if(c>1)then break else break;end end end;else break end else fa=(((fa*bo)))end else if b<2 then fc=(fc+di);else while(fc<dk and(((fa%cl))<db))do local b;local c=0 while true do c=(c+1)if(c>3 or c==3)then if(c>4 or c==4)then if not(c~=4)then fc=(fc+di);else break end else if((fa%df)>de or not((fa%df)~=de))then local d=0 while true do d=(d+1)if(d<1 or d==1)then fa=((fa+dc))else if not(d~=2)then while(fc<dd and(fa%cz)<cp)do local d;local g=0 while true do g=g+1 if(g==3 or g>3)then if(g>4 or g==4)then if not(g~=5)then break else fc=fc+di;end else if((not((fa%cu)~=cy)or((fa%cu))>cy))then local j;local l=0 while true do l=l+1 if(l<2 or l==2)then if not(l~=2)then j=cw else fa=((fa+cx))end else if not(l~=4)then break else if not fe[j]then local l=0 while true do l=(l+1)if(l>2 or l==2)then if l>2 then break else i[t()]=bh;end else fe[j]=di;end end end end end end elseif not(not((fa%cv)~=dg))then local j;local l=0 while true do l=(l+1)if(l==2 or l<2)then if not(l~=2)then j=cr else fa=(fa+ct)end else if(l>3)then break else if not fe[j]then local l=0 while true do l=l+1 if(l==1 or l<1)then fe[j]=di;else if l<3 then i[t()]=bh;else break end end end end end end end else local j;local l=0 while true do l=l+1 if(l==2 or l<2)then if l<2 then fa=((fa*cs))else fc=(fc+di)end else if(l==4 or l>4)then if not(l~=4)then if not fe[j]then local l=0 while true do l=l+1 if(l==1 or l<1)then fe[j]=di;else if not(l~=3)then break else i[t()]=bh;end end end end else break end else j=cn end end end end;end else if not(g~=1)then fa=((fa*da))else d=fc+fa end end end end else break end end end elseif not(not((fa%cv)~=dg))then local d=0 while true do d=(d+1)if(d==2 or d>2)then if not(d~=2)then while fc<co and((((fa%ce))<cm))do local d;local g=0 while true do g=g+1 if(g==2 or g<2)then if(g<2)then fa=((fa-ck))else d=fc+fa end else if(g==4 or g>4)then if g>4 then break else fc=(fc+di);end else if((fa%ci))<cj then local d;local g=0 while true do g=(g+1)if(g==2 or g<2)then if not(g~=2)then d=ch else fa=(fa+cg)end else if not(g~=3)then if not fe[d]then local g,j,l,v;local be=0 while true do be=(be+1)if(be>4 or be==4)then if(be==5 or be<5)then if not(be~=5)then v=cv else l=dl end else if(be>6)then break else for v=di,t()do local bg,bj;local bk=0 while true do bk=bk+1 if(bk==3 or bk>3)then if not(bk~=4)then break else if(not(not(bj==0)))then local bq,bz,eg;local eh=0 while true do eh=eh+1 if(eh>4 or eh==4)then if(eh==5 or eh<5)then if not(eh~=4)then if(not(not(k(bz,j,j)==g)))then local ei=0 while true do ei=ei+1 if not(ei~=2)then break else eg[r]=bh[eg[r]];end end end;else if(not(not(k(bz,l,l)==g)))then local ei=0 while true do ei=ei+1 if ei<2 then eg[s]=bh[eg[s]];else break end end end;end else if not(eh~=6)then i[v]=eg;else break end end else if(eh<1 or eh==1)then bq,bz,eg=k(bg,j,l),k(bg,cv,cf),bl({[o]=p(),[q]=p(),nil,nil},{['\95\95\116\111\115\116\114\105\110\103']=function()return bd(bc,n());end})else if eh<3 then if(((not(not(bq==dg)))or(not(not(bq==g)))))then local v=0 while true do v=(v+1)if(v<1 or v==1)then eg[r]=t();else if v<3 then if(not(not(bq==0)))then local v=0 while true do v=(v+1)if not(v~=2)then break else eg[s]=t();end end end;else break end end end elseif(((not(not(bq==j)))or(not(not(bq==l)))))then local v=0 while true do v=v+1 if(v<1 or v==1)then eg[r]=(t()-(e));else if not(v~=2)then if(not(not(bq==l)))then local e=0 while true do e=(e+1)if(e<2)then eg[s]=p();else break end end end;else break end end end end;else if(not(not(k(bz,g,g)==g)))then local e=0 while true do e=(e+1)if not(e~=1)then eg[q]=bh[eg[q]];else break end end end;end end end end end;end else if not(bk~=2)then bj=k(bg,g,g)else bg=n()end end end end;end end else if(be==2 or be>2)then if(be>2)then j=bx else g=di end else fe[d]=di;end end end end else break end end end elseif not(not((fa%cv)~=dg))then local d;local e=0 while true do e=e+1 if(e==2 or e<2)then if e<2 then fa=(fa*22)else d=ca end else if(e<4)then if not fe[d]then local e=0 while true do e=e+1 if(e>2 or e==2)then if not(e~=3)then break else i[t()]=bh;end else fe[d]=1;end end end else break end end end else local d;local e=0 while true do e=e+1 if(e>3 or e==3)then if(e<3 or e==3)then d=cc else if(e<5)then if not fe[d]then local g=0 while true do g=(g+1)if(g==2 or g>2)then if not(g~=3)then break else i[t()]=bh;end else fe[d]=1;end end end else break end end else if not(e~=2)then fc=((fc+1))else fa=(((fa+cd)))end end end end;end end end end else break end else fa=((fa-cq))end end else local d=0 while true do d=d+1 if(d==2 or d<2)then if not(d~=1)then fa=(((fa+cf)))else fc=((fc+di))end else if not(d~=3)then while((((fc<cb))and(fa%by<447)))do local d;local e=0 while true do e=(e+1)if(e==3 or e>3)then if(e==4 or e>4)then if e<5 then fc=(fc+di);else break end else if(((fa%bv)<9991)or not((fa%bv)~=9991))then local g;local j=0 while true do j=j+1 if(j<2 or j==2)then if not(j~=1)then fa=((fa*bp))else g=56986 end else if(j>3)then break else if not fe[g]then local j=0 while true do j=j+1 if(j>2 or j==2)then if j>2 then break else i[t()]=bh;end else fe[g]=di;end end end end end end elseif not(not((fa%cv)~=dg))then local g;local j=0 while true do j=(j+1)if(j>3 or j==3)then if not(j~=3)then if not fe[g]then local k=0 while true do k=(k+1)if(k==2 or k>2)then if not(k~=2)then i[t()]=bh;else break end else fe[g]=di;end end end else break end else if not(j~=1)then fa=(fa*bu)else g=bi end end end else local g;local j=0 while true do j=j+1 if(j<2 or j==2)then if(j>1)then fc=((fc+di))else fa=((fa*84))end else if(j==3 or j<3)then g=bs else if(j<5)then if not fe[g]then local j=0 while true do j=(j+1)if(j==1 or j<1)then fe[g]=di;else if j>2 then break else i[t()]=bh;end end end end else break end end end end end;end else if not(e~=2)then d=((fc+fa))else fa=((fa*bw))end end end end else break end end end end;end else if not(c~=2)then b=(fc+fa)else fa=(fa+dh)end end end end end end end end;else if(ff>62)then dn=67 else dm=296 end end else if(ff==66 or ff>66)then if not(ff~=67)then dr=51 else dq=13 end else if(ff>64)then dp=49527 else _do=58111 end end end else if(ff==57 or ff<57)then if(ff>56 or ff==56)then if not(ff~=57)then dl=3 else dk=720 end else dj=356 end else if(ff<58 or ff==58)then fa=dj else if ff<60 then fc=dg else fe={}end end end end else if(ff==75 or ff>75)then if(ff>78 or ff==78)then if(ff<79 or ff==79)then if not(ff~=78)then ec=9018 else ed=80 end else if(ff>80)then ef=1206 else ee=68591 end end else if(ff==76 or ff>76)then if not(ff~=76)then ea=603 else eb=4509 end else dz=75795 end end else if(ff>71 or ff==71)then if(ff<72 or ff==72)then if ff>71 then dw=95 else dv=30 end else if(ff>73)then dy=74 else dx=93 end end else if(ff==68 or ff<68)then ds=575 else if(ff>69)then du=3229 else dt=86 end end end end end end else if(ff<27 or ff==27)then if(ff<13 or ff==13)then if(ff>7 or ff==7)then if(ff==10 or ff>10)then if(ff==12 or ff>12)then if not(ff~=13)then bp=98 else bo=986 end else if ff<11 then bi=40257 else bn=71 end end else if(ff==8 or ff>8)then if ff>8 then for b=1,t()do local c=0 while true do c=(c+1)if not(c~=2)then break else m[b-1]=h();end end end;else bc[53]=n();end else while fc<6 do local b=0 while true do b=b+1 if(b==2 or b<2)then if b>1 then while((fc<714)and(fa%602)<301)do local c;local d=0 while true do d=d+1 if(d<2 or d==2)then if not(d~=2)then c=(fc+fa)else fa=(fa-3)end else if(d==4 or d>4)then if not(d~=4)then fc=(fc+1);else break end else if((fa%3222)>1611)then local c=0 while true do c=(c+1)if(c<1 or c==1)then fa=((fa*18))else if not(c~=3)then break else while(fc<338)and((fa%236)<118)do local c;local d=0 while true do d=d+1 if(d<2 or d==2)then if not(d~=2)then c=fc+fa else fa=(fa-39)end else if(d<3 or d==3)then if(((fa%4992))==2496 or((fa%4992))>2496)then local c;local e=0 while true do e=(e+1)if(e==2 or e<2)then if(e<2)then fa=(fa-97)else c=64559 end else if not(e~=3)then if not fe[c]then local e=0 while true do e=(e+1)if(e<1 or e==1)then fe[c]=1;else if not(e~=3)then break else bh[t()]=nil;end end end end else break end end end elseif not((fa%4)==0)then local c;local e=0 while true do e=e+1 if(e==3 or e>3)then if e>3 then break else if not fe[c]then local g=0 while true do g=(g+1)if(g<2 or g==2)then if not(g~=2)then for j=1,t()do local k;local l=0 while true do l=(l+1)if(l<1 or l==1)then k=n()else if(l<3)then if(not(k~=1))then local l=0 while true do l=l+1 if(l>1)then break else bh[j]=nil;end end elseif(not(k~=3))then local l=0 while true do l=l+1 if l>1 then break else bh[j]=(not(n()==0));end end elseif(not(k~=2))then local l=0 while true do l=l+1 if not(l~=2)then break else bh[j]=z();end end elseif(not(k~=0))then local k=0 while true do k=k+1 if not(k~=2)then break else bh[j]=ba();end end end;else break end end end end;else fe[c]=1;end else if g<4 then bc[x]=bh;else break end end end end end else if not(e~=2)then c=97562 else fa=(fa*82)end end end else local c;local e=0 while true do e=(e+1)if(e==3 or e>3)then if(e==4 or e>4)then if(e>4)then break else if not fe[c]then local g=0 while true do g=g+1 if(g==1 or g<1)then fe[c]=1;else if g<3 then bh[t()]=nil;else break end end end end end else c=9788 end else if(e<2)then fa=(fa-15)else fc=(fc+1)end end end end;else if d<5 then fc=(fc+1);else break end end end end end end end end elseif not(fa%4==0)then local c=0 while true do c=c+1 if(c==1 or c<1)then fa=(fa+6)else if not(c~=2)then while((fc<183)and((fa%1948)<974))do local c;local d=0 while true do d=d+1 if(d>3 or d==3)then if(d==3 or d<3)then if((fa%14418)<7209 or(fa%14418)==7209)then local e;local g=0 while true do g=g+1 if(g>3 or g==3)then if(g<4)then if not fe[e]then local j=0 while true do j=j+1 if(j<2)then fe[e]=1;else break end end end else break end else if g>1 then e=48104 else fa=(fa*15)end end end elseif not(fa%4==0)then local e;local g=0 while true do g=g+1 if(g<2 or g==2)then if g<2 then fa=(fa*53)else e=36803 end else if(g<4)then if not fe[e]then local g=0 while true do g=(g+1)if(g<1 or g==1)then fe[e]=1;else if g>2 then break else bh[t()]=nil;end end end end else break end end end else local e;local g=0 while true do g=g+1 if(g==3 or g>3)then if(g>4 or g==4)then if(g<5)then if not fe[e]then local j=0 while true do j=j+1 if(j<1 or j==1)then fe[e]=1;else if j<3 then bh[t()]=nil;else break end end end end else break end else e=17291 end else if not(g~=1)then fa=((fa*74))else fc=fc+1 end end end end;else if not(d~=5)then break else fc=fc+1;end end else if d>1 then c=fc+fa else fa=(fa+63)end end end end else break end end end else local c=0 while true do c=c+1 if(c<2 or c==2)then if(c>1)then fc=fc+1 else fa=(fa-3)end else if not(c~=4)then break else while((fc<109)and((fa%1018)<509))do local c;local d=0 while true do d=(d+1)if(d<2 or d==2)then if d>1 then c=fc+fa else fa=((fa*23))end else if(d<3 or d==3)then if(fa%3252)>1626 then local c;local e=0 while true do e=(e+1)if(e==2 or e<2)then if(e>1)then c=84781 else fa=((fa*4))end else if e<4 then if not fe[c]then local e=0 while true do e=(e+1)if(e<1 or e==1)then fe[c]=1;else if(e>2)then break else bh[t()]=nil;end end end end else break end end end elseif not((fa%4)==0)then local c;local e=0 while true do e=(e+1)if(e==2 or e<2)then if e>1 then c=45824 else fa=((fa-11))end else if(e>3)then break else if not fe[c]then local e=0 while true do e=e+1 if(e==2 or e>2)then if e<3 then bh[t()]=nil;else break end else fe[c]=1;end end end end end end else local c;local e=0 while true do e=e+1 if(e==2 or e<2)then if not(e~=2)then fc=fc+1 else fa=(fa+50)end else if(e<3 or e==3)then c=65887 else if not(e~=5)then break else if not fe[c]then local e=0 while true do e=(e+1)if(e==2 or e>2)then if not(e~=3)then break else bh[t()]=nil;end else fe[c]=1;end end end end end end end end;else if(d>4)then break else fc=fc+1;end end end end end end end end end;end end end end else fc=(fc+1);end else if(b==4 or b>4)then if b<5 then if fc>61 then local b=0 while true do b=(b+1)if b<2 then break;else break end end end;else break end else fa=(fa*1020)end end end end;end end else if(ff==4 or ff>4)then if(ff>5 or ff==5)then if(ff>5)then fe={}else fc=0 end else fa=478 end else if(ff==1 or ff<1)then i,m,y,bb={},{},{},{}else if ff>2 then bh={}else bc=bl({[u]=i,nil,[w]=m,nil,[359]=bb,},{['\95\95\116\111\115\116\114\105\110\103']=function()return bd(f,ba());end})end end end end else if(ff==20 or ff<20)then if(ff==16 or ff<16)then if(ff==15 or ff>15)then if not(ff~=16)then bv=19982 else bu=5 end else bs=33448 end else if(ff>19 or ff==19)then if not(ff~=19)then by=894 else ca=68773 end else if not(ff~=18)then bx=2 else bw=80 end end end else if(ff<23 or ff==23)then if(ff>22 or ff==22)then if(ff<23)then cc=87852 else cd=47 end else cb=772 end else if(ff==26 or ff>26)then if(ff>26)then ch=23657 else cg=91 end else if not(ff~=24)then ce=702 else cf=6 end end end end end else if(ff<40 or ff==40)then if(ff<33 or ff==33)then if(ff==31 or ff>31)then if(ff==31 or ff<31)then cl=1416 else if ff<33 then cm=351 else cn=23454 end end else if(ff==28 or ff<28)then ci=3584 else if not(ff~=29)then cj=1792 else ck=24 end end end else if(ff>37 or ff==37)then if(ff>39 or ff==39)then if not(ff~=40)then cu=7632 else ct=41 end else if ff<38 then cr=23500 else cs=59 end end else if(ff==35 or ff>35)then if(ff<36)then cp=783 else cq=18 end else co=616 end end end else if(ff==48 or ff>48)then if(ff>51 or ff==51)then if(ff==52 or ff<52)then if not(ff~=52)then dg=0 else df=2410 end else if(ff>53)then di=1 else dh=95 end end else if(ff<48 or ff==48)then dc=44 else if ff<50 then dd=520 else de=1205 end end end else if(ff==43 or ff<43)then if(ff<41 or ff==41)then cv=4 else if not(ff~=42)then cw=66738 else cx=25 end end else if(ff<45 or ff==45)then if ff>44 then cz=1566 else cy=3816 end else if not(ff~=46)then da=15 else db=708 end end end end end end end end end local function b(...)local c=bm(1,...);local d=bm(2,...);local e=bm(3,...)local f=c[u];local g=c[w];local i=c[53];local c=c[359];return function(...)local c=f;local f=g;local g=i;local a,i,j,k,l,m,n,p=a,1,-1,{},{...},(bm("\35",...)-1),{},{};for t=0,m,1 do local u=l[t+1];if(t>=g)then k[t-g]=u;else p[t]=u;end;end;local t,u,v,w=(m-g+1),nil,nil,{};while true do u=c[i];v=u[o];if v<=75 then if v<=37 then if v<=18 then if v<=8 then if v<=3 then if v<=1 then if v<1 then local w=u[q];p[w]=p[w]-p[w+2];i=u[r];else local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif v==2 then for w=u[q],u[r],1 do p[w]=nil;end;else do return end;end;elseif v<=5 then if v<5 then for w=u[q],u[r],1 do p[w]=nil;end;else local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif v<=6 then local w=u[q]p[w]=p[w](br(p,w+1,j))elseif v~=8 then if(p[u[q]]~=p[u[s]])then i=i+1;else i=u[r];end;else p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=false;i=i+1;u=c[i];for w=u[q],u[r],1 do p[w]=nil;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];end;elseif 13>=v then if v<=10 then if v~=10 then p[u[q]][p[u[r]]]=p[u[s]];else local w=u[q];p[w]=p[w]-p[w+2];i=u[r];end;elseif v<=11 then p[u[q]]={};elseif 12<v then if(p[u[q]]==p[u[s]])then i=i+1;else i=u[r];end;else local w;p={};for x=0,m,1 do if x<g then p[x]=l[x+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];w=u[q]p[w](p[w+1])end;elseif v<=15 then if 14<v then local w=u[q]local x,y=a(p[w](br(p,w+1,u[r])))j=y+w-1 local y=0;for z=w,j do y=y+1;p[z]=x[y];end;else local w=u[q]local x={p[w](p[w+1])};local y=0;for z=w,u[s]do y=y+1;p[z]=x[y];end end;elseif 16>=v then if(p[u[q]]==p[u[s]])then i=i+1;else i=u[r];end;elseif v==17 then p[u[q]]=p[u[r]]-u[s];else i=u[r];end;elseif v<=27 then if v<=22 then if 20>=v then if v==19 then local w;p[u[q]]={};i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]]={};i=i+1;u=c[i];p[u[q]][u[r]]=p[u[s]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];w=u[q]p[w](br(p,w+1,u[r]))else local w=p[u[s]];if not w then i=i+1;else p[u[q]]=w;i=u[r];end;end;elseif 21==v then local w=u[q];local x=p[w];for y=w+1,j do bt(x,p[y])end;else local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif 24>=v then if v~=24 then p[u[q]]=false;i=i+1;else local w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif 25>=v then p[u[q]][p[u[r]]]=p[u[s]];elseif v>26 then p[u[q]]=p[u[r]]*u[s];else i=u[r];end;elseif v<=32 then if 29>=v then if v>28 then p[u[q]]=p[u[r]]-p[u[s]];else p[u[q]]=p[u[r]][p[u[s]]];end;elseif 30>=v then p[u[q]]=b(f[u[r]],nil,e);elseif 32>v then local w=u[q]p[w](p[w+1])else p[u[q]]=p[u[r]]/u[s];end;elseif 34>=v then if 34~=v then do return p[u[q]]end else if p[u[q]]then i=i+1;else i=u[r];end;end;elseif v<=35 then p[u[q]]=p[u[r]][p[u[s]]];elseif 37~=v then local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))else local w;p={};for x=0,m,1 do if x<g then p[x]=l[x+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];w=u[q]p[w](p[w+1])end;elseif 56>=v then if v<=46 then if v<=41 then if 39>=v then if 38==v then p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]]+u[s];i=i+1;u=c[i];d[u[r]]=p[u[q]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];if p[u[q]]then i=i+1;else i=u[r];end;else local w;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif v==40 then p[u[q]]=p[u[r]]/u[s];i=i+1;u=c[i];p[u[q]]=p[u[r]]-p[u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]]/u[s];i=i+1;u=c[i];p[u[q]]=p[u[r]]*u[s];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];i=u[r];else p[u[q]]=p[u[r]]%p[u[s]];end;elseif 43>=v then if 42<v then if(u[q]<p[u[s]])then i=i+1;else i=u[r];end;else local w=u[q]local x,y,z=p[w],p[w+1],p[w+2];local x=x+z p[w]=x if z>0 and x<=y or z<0 and x>=y then i=u[r]p[w+3]=x end end;elseif v<=44 then local w;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))elseif 45==v then p[u[q]]=u[r];else do return p[u[q]]end end;elseif v<=51 then if 48>=v then if 47<v then p[u[q]]=p[u[r]]/u[s];else p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];do return p[u[q]]end i=i+1;u=c[i];do return end;end;elseif v<=49 then p[u[q]]=p[u[r]]+u[s];elseif 50==v then local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))else local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif v<=53 then if 52==v then p[u[q]]=#p[u[r]];else p[u[q]]=b(f[u[r]],nil,e);end;elseif 54>=v then p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];elseif v~=56 then if(p[u[q]]<p[u[s]])then i=i+1;else i=u[r];end;else local w=u[q]p[w](br(p,w+1,u[r]))end;elseif v<=65 then if v<=60 then if v<=58 then if 58~=v then local w=u[q]p[w](p[w+1])else p[u[q]]=false;end;elseif v>59 then local w=u[q]p[w]=p[w](p[w+1])else p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;end;elseif 62>=v then if 62>v then p[u[q]]={};else p[u[q]]=true;end;elseif v<=63 then p[u[q]]=p[u[r]][u[s]];elseif 65~=v then p[u[q]]=p[u[r]][u[s]];else if not p[u[q]]then i=i+1;else i=u[r];end;end;elseif 70>=v then if v<=67 then if v>66 then d[u[r]]=p[u[q]];else do return end;end;elseif v<=68 then local w=u[q]p[w]=p[w]()elseif 69<v then p[u[q]]=e[u[r]];else local w=u[q];local x=p[w];for y=w+1,u[r]do bt(x,p[y])end;end;elseif v<=72 then if 72~=v then p[u[q]][u[r]]=p[u[s]];else p[u[q]]=#p[u[r]];end;elseif 73>=v then local w=u[q];j=w+t-1;for x=w,j do local w=k[x-w];p[x]=w;end;elseif 75~=v then local w;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))else local w=u[q];local x=p[u[r]];p[w+1]=x;p[w]=x[u[s]];end;elseif 113>=v then if 94>=v then if 84>=v then if 79>=v then if v<=77 then if 77~=v then local w;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))else p[u[q]]=p[u[r]]-u[s];end;elseif 78<v then if(u[q]<=p[u[s]])then i=i+1;else i=u[r];end;else d[u[r]]=p[u[q]];end;elseif 81>=v then if 80<v then if(u[q]<p[u[s]])then i=i+1;else i=u[r];end;else p[u[q]]=p[u[r]]-p[u[s]];end;elseif 82>=v then local w;local x;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];x=u[q];w=p[x];for y=x+1,u[r]do bt(w,p[y])end;elseif 84>v then local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))else local w=u[q];do return br(p,w,j)end;end;elseif v<=89 then if 86>=v then if v==85 then local w;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];w=u[q];do return p[w](br(p,w+1,u[r]))end;i=i+1;u=c[i];w=u[q];do return br(p,w,j)end;i=i+1;u=c[i];i=u[r];else local w=u[q];do return br(p,w,j)end;end;elseif 87>=v then p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;elseif 89~=v then local w=f[u[r]];local x={};local y={};for z=1,u[s]do i=i+1;local ba=c[i];if ba[o]==147 then y[z-1]={p,ba[r]};else y[z-1]={d,ba[r]};end;n[#n+1]=y;end;bl(x,{['\95\95\105\110\100\101\120']=function(z,z)local z=y[z];return z[1][z[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(z,z,ba)local y=y[z]y[1][y[2]]=ba;end;});p[u[q]]=b(w,x,e);else local w=u[q];do return p[w](br(p,w+1,u[r]))end;end;elseif 91>=v then if 90<v then p[u[q]]=u[r];else local w;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];w=u[q]p[w]=p[w](br(p,w+1,u[r]))end;elseif v<=92 then p[u[q]]=p[u[r]]*u[s];elseif 94~=v then local w=u[q]p[w]=p[w](br(p,w+1,u[r]))else if(u[q]<=p[u[s]])then i=i+1;else i=u[r];end;end;elseif v<=103 then if v<=98 then if v<=96 then if 95<v then local w=u[q];local x=u[r];for y=w,x do p[y]=k[y-w];end;else local w=u[q];j=w+t-1;for t=w,j do local w=k[t-w];p[t]=w;end;end;elseif 97<v then local t=u[q];local w=p[t];for x=t+1,j do bt(w,p[x])end;else if(p[u[q]]<u[s])then i=i+1;else i=u[r];end;end;elseif 100>=v then if 100~=v then if(p[u[q]]<=p[u[s]])then i=i+1;else i=u[r];end;else p[u[q]]=d[u[r]];end;elseif 101>=v then local t;p={};for w=0,m,1 do if w<g then p[w]=l[w+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]={};i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]={};i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];t=u[q];p[t]=p[t]-p[t+2];i=u[r];elseif 102<v then local t;local w,x;local y;p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];y=u[q]w,x=a(p[y](br(p,y+1,u[r])))j=x+y-1 t=0;for x=y,j do t=t+1;p[x]=w[t];end;else p[u[q]]=p[u[r]]+u[s];end;elseif v<=108 then if v<=105 then if 104<v then local t;local w,x;local y;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];y=u[q]w,x=a(p[y](br(p,y+1,u[r])))j=x+y-1 t=0;for x=y,j do t=t+1;p[x]=w[t];end;else local t=u[q]local w={}for x=1,#n do local x=n[x];for y=0,#x do local x=x[y];local y,z=x[1],x[2];if y==p and z>=t then w[z]=p[z];x[1]=w;end;end;end;end;elseif v<=106 then local t=u[q]p[t](br(p,t+1,j))elseif v<108 then local t=u[q];local w=p[u[r]];p[t+1]=w;p[t]=w[u[s]];else local t=u[q]local w,x,y=p[t],p[t+1],p[t+2];local w=w+y p[t]=w if y>0 and w<=x or y<0 and w>=x then i=u[r]p[t+3]=w end end;elseif 110>=v then if v>109 then p[u[q]]=p[u[r]]%p[u[s]];else p[u[q]]=p[u[r]];end;elseif v<=111 then if not p[u[q]]then i=i+1;else i=u[r];end;elseif 113>v then if(p[u[q]]<=p[u[s]])then i=i+1;else i=u[r];end;else p[u[q]]=p[u[r]]+p[u[s]];end;elseif v<=132 then if v<=122 then if v<=117 then if v<=115 then if 115~=v then if(p[u[q]]~=p[u[s]])then i=i+1;else i=u[r];end;else local t=u[q]p[t](br(p,t+1,u[r]))end;elseif 116<v then local t;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];t=u[q]p[t]=p[t](br(p,t+1,u[r]))else local t;p[u[q]]=p[u[r]]%p[u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]]+u[s];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];t=u[q]p[t]=p[t](br(p,t+1,u[r]))end;elseif v<=119 then if 119~=v then local t=u[q]local w={p[t](p[t+1])};local x=0;for y=t,u[s]do x=x+1;p[y]=w[x];end else p[u[q]]=false;i=i+1;end;elseif v<=120 then p[u[q]]=false;elseif v>121 then local t=u[q]local w={}for x=1,#n do local x=n[x];for y=0,#x do local x=x[y];local y,z=x[1],x[2];if y==p and z>=t then w[z]=p[z];x[1]=w;end;end;end;else local f=f[u[r]];local t={};local w={};for x=1,u[s]do i=i+1;local y=c[i];if y[o]==147 then w[x-1]={p,y[r]};else w[x-1]={d,y[r]};end;n[#n+1]=w;end;bl(t,{['\95\95\105\110\100\101\120']=function(n,n)local n=w[n];return n[1][n[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(n,n,o)local n=w[n]n[1][n[2]]=o;end;});p[u[q]]=b(f,t,e);end;elseif v<=127 then if v<=124 then if v>123 then local f=u[q]local a,n=a(p[f](br(p,f+1,u[r])))j=n+f-1 local n=0;for o=f,j do n=n+1;p[o]=a[n];end;else if p[u[q]]then i=i+1;else i=u[r];end;end;elseif 125>=v then local a;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];a=u[q]p[a]=p[a](br(p,a+1,u[r]))elseif 126<v then p[u[q]][u[r]]=p[u[s]];else local a;p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][p[u[s]]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];a=u[q]p[a]=p[a](br(p,a+1,u[r]))end;elseif 129>=v then if 129>v then if(p[u[q]]<p[u[s]])then i=i+1;else i=u[r];end;else p[u[q]]=true;end;elseif v<=130 then local a;p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];a=u[q];do return p[a](br(p,a+1,u[r]))end;i=i+1;u=c[i];a=u[q];do return br(p,a,j)end;elseif v==131 then p[u[q]]=p[u[r]]+p[u[s]];else if(p[u[q]]<u[s])then i=i+1;else i=u[r];end;end;elseif 142>=v then if 137>=v then if 134>=v then if 133==v then local a=u[q];local f=p[a];for n=a+1,u[r]do bt(f,p[n])end;else p[u[q]]=d[u[r]];end;elseif 135>=v then local a=p[u[q]]+u[s];p[u[q]]=a;if(a<=p[u[q]+1])then i=u[r];end;elseif v>136 then p[u[q]]=e[u[r]];else local a=u[q];do return p[a](br(p,a+1,u[r]))end;end;elseif 139>=v then if 138<v then p[u[q]]();else local a=p[u[s]];if not a then i=i+1;else p[u[q]]=a;i=u[r];end;end;elseif 140>=v then p={};for a=0,m,1 do if a<g then p[a]=l[a+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]]+u[s];i=i+1;u=c[i];d[u[r]]=p[u[q]];i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]();elseif 142~=v then p[u[q]]=p[u[r]]%u[s];else p[u[q]]={};i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];if not p[u[q]]then i=i+1;else i=u[r];end;end;elseif v<=147 then if v<=144 then if v~=144 then p[u[q]]();else local a;p={};for f=0,m,1 do if f<g then p[f]=l[f+1];else break;end;end;i=i+1;u=c[i];p[u[q]]=false;i=i+1;u=c[i];p[u[q]]=e[u[r]];i=i+1;u=c[i];for e=u[q],u[r],1 do p[e]=nil;end;i=i+1;u=c[i];p[u[q]]=d[u[r]];i=i+1;u=c[i];p[u[q]]=p[u[r]][u[s]];i=i+1;u=c[i];p[u[q]]=p[u[r]];i=i+1;u=c[i];a=u[q]p[a]=p[a](p[a+1])end;elseif v<=145 then local a=u[q]p[a]=p[a]()elseif 146<v then p[u[q]]=p[u[r]];else local a=u[q]p[a]=p[a](p[a+1])end;elseif 149>=v then if 148==v then local a=u[q]p[a]=p[a](br(p,a+1,j))else p[u[q]]=p[u[r]]%u[s];end;elseif 150>=v then local a=u[q];local d=u[r];for e=a,d do p[e]=k[e-a];end;elseif v==151 then local a=u[q]p[a](br(p,a+1,j))else local a;p[u[q]]=p[u[r]];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];p[u[q]]=u[r];i=i+1;u=c[i];a=u[q]p[a]=p[a](br(p,a+1,u[r]))end;i=i+1;end;end;end;return b(h(),{},bf())();end)('22221T1U21T21E1B2791B1E27A23J22Y22X22V2321B1D27A22W22S22T22W22Y23J27J27A23C23J23D22Q22T2301B1F27L22R22Y23D28027A22U27Q22R1B1927A22S23C27B27A23323222X23I27Z28127927E23C22O28628O23623F27I27C27923F27P22V22V1B1C27A23023223J27X23122S28S1B29929B1727T29722U29727Q27F27H1B1827A23D23223F29O27T23I22X28G27928823J22W28A1327D28E27V27X27Z29427929623J23123222T23H27S27927X23C23223D27R28N1B23023C29W1B2A427922C22L22622H22G21U21W21X29Y1B22V22S23G2AM29C1X22Y23C26B28C27A1B21722W2231B24227A2251V1P2461L22B24Z24V26X22D21F25S25S22123123G23A24R26925O21P1S21921V24V24Q1I24J25F24U21K24N2181C24M1D131125K1426P22W1A25F1N1O22B22D25Z21526K25H24T22Z26F26X2431U1M22T23C25722N25721J24C23D26423Y21M1323E25W22N2581Z25J25526I24R1Z22X24W22P25525P26Z22M2441N1I25Y25R26H24M24Y24C1G1T26K22Z26A23B2351Y21K26O2542711V141M25R23B26W21M25X25B24K24Z23S22I25Z26B21I21O25H21421J25K1725H1523U2542181L25S24O21R23M23125S24R24I25923925T22323923S23X22T2BG2BH26Z21G1B1A27A21Q29U2791M22K21W2B523F27W22T27R2G32792222FY23V24825Z25R22229C23G2832GF27A27C2AP23323I22U29T2GG1B1X2G227A1U2H32792172G61B22W23F2782AP21722Y23B26T2H627S2H021P2HJ2352HJ28A24A27A21122Z23126E22U22X24C23K24E21O21S24K27221A14181U26623N25522623D22N1W25C25G22U25I24T2621M25G21V22P23T22628I25922O24P21X22H24G22T2351Z1X24K23I23X24R25K21W23P25N26T2161Z22F22226122U23S22E2731R25B2521E22P22225222U23O21X26R23Y26424C1K22M23M1026027325W21826T22O21P25026U26424223Q2712362192651823R1L1K2G824523Y25L21B21O21226U1K24C1826B23U25J25Y25621O24X25U131D26Q1R1226Z21R26I22Q26B25N22G23725525G22I24Z21V24K25V25Y2FY2BH2792AA1B22C22C27X28I2371B1127A2LX22T23223G2LZ2322M12LV2LX23F22Y22Q23D28F2AV2LW2LY2ME2MG28F27K2AW2LY23J2BA2M32MQ23J2A62GD27Z2MU2B622S22Y23327U2MY29C23022Y29J29327A21V23J23J23F2242972LS2792202BL23N27A22222V2BD21321722Q23J2HF23F28V28423C21723J2GR2O122R2322O423D22S2322O022S2312HF23027N23621728323H2O622X23223122Y2912AF21729J2NS22Y22T2332O42O62AL2DC27Q22Q27N2O027M23I2MH2A82O722S28L22R2OS2OH2OM2P92842O62M923C22W27W22X29M2OH2MA2PM23I22W22Q2P227Y2111B21027A2202OV2172362PB21722V22Q22O2OZ2MW23F2O123D2362P92MW2172GC27X2NV2O22O627M2DC27E2GE28F2N02AP2NJ1B2G02QW2792QZ2BL2AP2A22842LS21B2BH21C2LT2RA1P22828B2HJ2RC29U2FY1522I2RE1V2HJ1F1H27A2RM2G32RJ2RL2H32G32RO2RQ2H321723Q29C27929P2H72S127C2H02S427J29428129G2G32GU2RP2792SD27923E29U2S92LS1M2AI27A2HE1Z27S2MP2H927A2942H028X2BI2LU2NB2S327A2H82RE2FY2S927A2G32LV2RA27A2SU2BH2AP29U2G31D23V27A1S2RV2802SG1B2TM2GG22U2T92TC2RT28C2152RN2TP2TY2G32S02S22H92TW1B2SO2RW2TO27A2U82SJ2SL27A2SN2B52792HE2H827C2SZ2S921722F2T627A2T82TT2792SZ2TF2TP2TR2792162RH2TC2H92H02BH2V42LV2AC2AE2AG2LT2TG2R92V227A22Z2H32QZ1B2V02G32VI2S92V42TD2BH2S92AS29X2R328323D2VI2NJ26J22S2232QW2G02PZ2Q12Q32Q523I2Q72Q92QB22S2QD27V2QG27Y2O122S2QJ2GD2QM2O52BJ2P42QR23J23C2T821L2BH27I2VE2RE2WW2WY2V22VO2SV2V22TG2LT2T52812AP2X12UV2X52UU2B52QW2TE2LT1P2T12S92XH2AU29C2XK122B528N2941O2H62TT102UH2BH2TT29G2N02LT21J1B2XV2FY2LS2XO27K2N02XV27A2Y72Y327A2QU292294152XT2NB2QZ2RG2A42UV21V1B2XO2V22RG2M32SZ28N2A42132RZ21Y1B29G2YA2UH27R29G29G2792H02T52Z62GT2RA162HJ2TV2U42LT142WZ1R2YD2VE1Q2ZM2V22YI2ZO2R02BH1N1B2YI2SU2YI27A2181B2ZJ2X42LT2ZL2TB2RA2ZO2Z72YS2Z12WW2ZJ2XK2WX2792ZV2ZJ2SU2ZJ27A1J1B2ZE310L310G1B2ZV2ZE2SU2ZE2YB29U2Z3310W2802922A41I2H623X2XL2VI2TT2XO2T82BH22A2XL2YR2RA22N2XL2VE2VN2TC2V42HO27921522N22R22Q2P529R27Q2P72OZ2OC2MS2M62OX22U2OH2O52842NV2OC21727U27N23221121722G2WM23322Q2322OX2OV2OX2M82O22OI2AM217312G312I2PE2Q72BD2NV23G28422U2172AE2322Q827Y2O029A23D2OI2GX2OV2NU23621121521721G21721T28E29S2PD22G27E31332LT2LS2VD2WW311K2RA2V42AP22X2362MS313P2R82WZ313T31402SQ28H2GX29T24B27A22M2AL31372A7312S2QI2GW2GY21721O21O23123I2PL27Q22S23D213161122123I2NV2322OK2QF2O122Q2OT2NT2NV2GC22S2OK2OX230311U2MS23D211314T311Q2QO22S28I21729R28827X312S22S22X2PL311W2HF2OW2WH2PC314S112272ON2WF2302HF2912HF2NE2322GY2WQ2NS2O227Q217312X2O02AF2PB23022R2PY2BH2MJ310C2WZ2WY2T5313U316R2X12BH28C2VI2Z82HJ2VX2TU2UR31703144310R2792W32Q027921V2O6312G2OX2NU2162173179217313X2ME23C2AL2OX2QN2172AF2PM28U2MS2OX2QP27U2OV2WQ316K2SW2BH23R316O316P2X03182311L2WZ2H02V431432BH2UV2SZ2QK2GE2W22G12S929R23F2GJ2GL2GN1B2TY27922K2O32MA22Y22W23J22V2OH2PI2Q42Q62WE2QH2WI2AL2WV27A2ZZ279313R2YS2252TN2791D2U1310C2H02RX2SH2H31P319C2G32V43116316W2172BL316V2UF2T421S2UQ2T32792RG2X72BH23B2RE310427924C2ZF2TZ2TU2RW2TP2SI2V33186310X27921X22Q22W317A31472VB31412WY21U31A92LT311H316T3171316X2RA2SO27A2MJ2AX2AZ2B12B32B52B72B92VW2TC2BL2V729729E29C29E318G2ZP22W2P729R2GE31332322QW1V2BL2Z331BN28I231315N233316W310A2AL23J29J27E27E27G28W27A318E27R318I29S318L2GM2GO2AP2MA2NU2QW132W12RA21531CK2LT21B2R227A2GQ27Q2QW21331CQ279314H29T318D290292311F27V318U28J318U28R2SZ2A02A22QW21R31CN2BH21Q31DE27A21E31BB29H2O222S22S28R311N318O311Q311S2BJ315B315S23C311Y2AF312S3122312O3125217312731292M6312C312E317A312H312J315U312M2PD2O53137312R31212OH2NQ27U316D312Y313023231322A83135314Q313828822T313B313D313F313H313J23F313L313N27X2T22UH2AP31BG31BA31CI31DK2AB31BD22T29A2YQ28731AK2O8312X2OK2LT2RM27A319A2V231162WW319F27A31AE2UA319K2GG31FT31AS2BI22M31AG1B2XK2VL2RA319U2RA2T531GA2X2319V31852TF2BH2XS31G031722BH21723T2TC2AP31G73174319Y2XB31GT311B31GF31GG31AW31G22V431771B2Q222T31902W82Q82QA31282QC2QE31612WH2WJ2QL2OY2WN2QQ317W28F316U31AP313S31GL31GL31H2317G317B3154317E317G317I2BD317L31HH317P2QF23F317S31HI317V2QS317Y2ZT31FQ314231HP31I92UI31462GY2SP23728Z2OP292316L2BH310A31GY31GM31842LT319O2WW31GD31862H0316Z31AX319Z31G2310Q31BH31BC29831FG22S2R131BP2BL2SU31DX2P731AL2H92VS2QW21H31DH27921G31JJ1B22331JM31CJ316N1B31C031C229L31C52GB2WK2H9318J31CC318N311H311O21U2NV31DT22T22S2NV31EG2O92O0316B2NV28831H9311R31292QF2NS28K31KA311S2MW315031KE2OS22Y2QA2O031KB2OA31EZ21231F12AL31F3312D31F52FX2BH22L2BH2193182319R2ZT2FY2X1316W319V316T2MP28C31AU2SQ2TP31LK1B319Q31G21D29428C31G431IT319J1B31LU27931LP2QZ21723A31GT2FY2XK29P31GW28131GW2T02862AP310428C2QV2T42BL29P2FY2SZ217319X31M72VP31A02RD2S727A2RG27K2V4310N29P2SU2LS311631M92TC319S31MC317Z319E29429P2G52U931LW31NA2BI31MI310G31ML31MN2H92SU2RG31MS31MQ2HK2BH31MX2SP31N028631MA31N431A22792MJ31LR29U31ND2X72TP31ND31N431MJ2ZC2H731NI2S931NK31MR2RF2RD31MV31NP29U31MZ2BH31N131GE31NE31N5279311F31NZ31N92H331O22G42RZ31NF31MK319W2UE319E31MT31OC2H031MU2ZF31NQ31OI27A31OK31NU31CQ2AP2N031OQ1B31O131FY31PF2H62TM31MA27A21H2TH2V222029U31A631LO31PR2TC1D2GO29P2RK31LV2TP31PZ31LZ29U2XA31P831ON2LT1D2ZE31PY31OS31PH31Q2319M310Y31OJ2862XF31Q627C310727T31Q431GL311629P316M2BH23K31PO31IZ31LW227319L319C29P310A31FV29P31LY2UI2TP31LY31QF31R131QH31N231GB31PB317231MM31Q7311031P431981B31A428131QJ31A72X2319I2TP22631OS31R7311531PU2TC31PQ29P31Q531PH31R531PQ31IT2TC318A31HQ2NC31EA317C23J31HV2OL28U31HY314F2WM31I1317R312S317U2WP23C31I8310R31FR31S631IC310G2QW2212BL319X279314B312P2223166316831KD2WI2273147314J314L314N27P31KP21721Z23I22Y21721W22X314M314O31KP2NS2252MF22V2O0315Z23C23F2NU2O62212OA2NV22623131362WQ2LT2UV31H231IP2T431IR31G931872TC24H2H0314931U82BH31GR31LE31GS2VQ2VE2T531MO31ID314531AV2T32Y531RB31G231NV29C31OA31QA310O31QC31LW2ZE2GG31PN31IZ2BH1D23631AF2S42482WZ23331GX2LT31VF31V731UV31M131RE31IE319E31CE1B311431Q027A31VR31Q328131VL31Q72SZ31FV28125S31AA27931W22TI2GO2792242TN31LW31W92G331A12SP31PT27C31PL2YP2UL2TC31P42SU28N28131RT2TS2XL31PL2HR2A431IX31MH2XL2MJ2TB23931FI31M131OO31FI31VN2BH2M331PL2792M32N031QM2XV316T2T52XV2Z331QS31FI2Z32FY31N42M3311F311F152GA2M331WQ2M231PH31XU1D29T31XT2H32A431LW31XU31QF31XH31QH29G31PS31162ZE31S131JS2YD311031P3319C2XV31IO311631FX31GM2BL2ZB31P031O8310C310A31RI2RD2YI31RK31A429G31RK2BH31A82Z331QW2TP21K31RW2XV31RO31N431Y6279310Q1B31QU31XE317231LW2R931AC27A31XU1F2UT1B26S26S28C31PW27A22129U31ZP31ZM27A31ZP31ZR31W71B31QY29P31ZP1D23L31U92G331ZW2922812H831ZJ28Y2H331FV320F31RR31C7319L2RD31RN31QH31WH2V231WJ2XW31NN27K31WN31IE29B31WR2A431WT2XL31WW31Q62XO31M131Z52XO311F31Q531X82WW31XB31N62BH31ZF31GB27931ZA1B2ZL2LT2XO31XL2XX31XV311F2BH31XR31XV320X31XV31LW321U31XY321T31Y131PH321U31Y52ZP31PT31Y831FS31V131YC28F2XV31YF31MT31YH31JR322531UW31YN31JR2SU31RG31YO31V131NN31YV31A3310C31YZ27A31Z131IS31LL2VF31RU27A28A320E1B321U31ZX27931ZZ27J3201292320426S323431ZO31ZQ323727A22T31ZV26S320627A2B43209323B320B1B323M27J318P1B24J31W3323U320L31QI320O31OL1B320R31S131WM314528624T31RW2A4321531WY31O72BH311A2WW3217321D2YE31UW31XA31XV2792ZS31IM2N031NS2XO31XF2BL324H31A02TD2ZE2A431812G32XO31LW325031Q3324A31N32BL2A42MJ2SZ192G5324S31QH2M3324T31XV2N0324O1B310N2A4324Q31QH325E31RD31FI311F310F31Q92XL3248325131PH325X31G6319C2A431Z23116325232272YU2V22MI324M2RF3262322J2TY2A4244323W326H31GK320Z320Q324C2RA31NZ294326J2XL31LW326R31QF2A431YJ31FI325H324V2SP31RG327031YT2YD31YW31XK2V231A831QS320J27931493231326R31LW3260323C323631ZS27924O323I327I323E327K1B24U323I323K27923G2H3320A286327W323131W531G6320M31WF3116320P2TC324331WL31OE2SP31WO1B25T324931UL31N43259324631Q3324F2TC2ZV32702TB2Y2325631ID328I311I1B2XS3213322H325S2RY319E324Y1B25N2H332522TP3295326K328H3258328V2QV325D310R328R31SU31WX328J279328X328L328Z327031FP27J3293328F325Y31LW329T32612XL326431FI31Y931XV32292XL2N031YG2XL31R2326F1B260323W32AB329A31WI326N31Q829429432AD326S2TP32AK326V322F3265329O31X53271319X327331P13275322Q321M3278328V31Z327A25R322Y27932AK329V31OS31ZN327J3201264327N32BA327P320125U327T320727924M327X323O28632BM31GK31PS31OM31NW1B2H5319E2TY28126O323W32C031WD32842TE3286324132892RB328B320V28626P31QZ2XL1T2TD31VA324F2G32S431VI2WW32CM31PL31VD2T12ZG328S32AS31FV2A426Q323W32CX31WD319C2M3329Z2XV32A129G32A32M3310A32A632D831QH321F2X531BR2ZP322K319X321I32742ZE3276322B32B02Y0323W26Z32B51B26R2H62HO31QM2SQ323P26N31RW31VW325731VY2TD32BY1B1G1A327B32E732E929Z31NT2V22HR281321231Q327C31M131M331WK2XC324W27S31GW2SX31N32T12LV321K318B31F72FY31NZ28132E82SE31PH32F2329X27K329Z2SB32272YN326927S2MJ319P27S32DX31ZD31NO32B231ZB32EC31QF27K32A827S32F531R627A32F532FN32AP2NB325H32AI31MP2BI319X32FZ27932742XO3276294321Q31Z031WF323W1R32EC31PT32E2325R32BU2TM32BX28623732GE31PH32GM2TI323T21S32GN31LW32GS32BR31UN2WT32BU310N31U5328H2XC2SZ31Q527K31X32ST2TL2RA32ES321G2NB2LV311432H12LV2LS2HR31NM310R311631OF325R320U27A2TP325L323Z31UQ2TT32872RA32HJ316Y31QH31RO2H72R732HP27932H02BH29431YC31NX324K32AG32HR31P02MJ32EZ32F932GP27S31LW32II32FV32F82ZH3255320S2792MO328V32FF27K32FH31QU32HN323W21H32FM319C32FO32E527S32II32FS27932IL32J232FW32HB32DE32HD32G031RG32G3322N328331FI32G732AS2LT31A82XF32EA21G32EC32IK32GE31OK31M131NB328K2ZC32H732EN2TQ326O32IB32I431VQ2RA320N31UQ32C6325H32K11G2ZU32E427A32EG32HZ31QK31UN2BL32K132I61B2TT27K321032IY31XM31JA2SP2TB311632JC31YM32JE27932HR310N31QL31VG32HM31UN32I32SP32KN2T132BS321132ET32IC32K332IF2TD29427K32II2SF27A32J927S32IN32A132FB2TC32IS32FE32I031F72LT32IX2HJ32EA22V32J127S32FP32LK32GT2TP32LO32J331Q632KY31WX32JH32DH32L032JI2RG32G6322Q32G832B032JP322W29Z32JU28631VX32BU2ZV32GK28124I32M727A32MX2GG31A231A61P32FB32DP32GB2TC32JH2TC32CT31IQ32AG32MU27J32CI286325Y1B32CQ32IQ32NJ32JY2BH32CM2VI32CM31AV32NK32I132NK32FH32CM31PS32CM31YC32CM32FH3116325G32E3321C27932EW31YD325N3172325C2XL2UV31WU32KI32NF31FI31OF2GG32NR32EF326Y31GX21922Y28G24J32EC29P31LW32OS32D031XV32D332IO322G32D731JR32FF2M332IW31XV318832MO1B24732M332DB32GK2M332OW32P932PG31QF32PD31Q332DD32KZ321I32MF32DJ32AW32DL322Q32DN2TC31A832DP32EA24632GE2HO32LC31S72792542HL2WY310F2HJ316Q317331GR2UN316X319I31MT2ZT2SZ31M62SP2XK31RC31G62XC2LV2XK32IY2XK2942MJ2XK2A4311F32OC32G932OC32O4319E31VA2Y42H331VC32NN27A32NK32G932R82WZ23P310C311032NC310U31GX2XK2YI2N02T53103328K2T52ZL2SZ2Z32MP2ZL2RP31VS32L131OV321J2B5310A31QF2ZO311021722H32QN2AP31982T52XS2AP310Q2T52RM2AP32EW2T52H532SG32QG1B32CG324O2XK2TM310F2T5310N2SU329M2T531142AP329Q31FW32K631V721D32JI2RB319C2YI32BW31OM32RN27932CG28732RZ322S2792Y22ZJ31UU32TD2ZL31Z232AW2ZO32GJ32JJ2XH32I62RG2XS32HF32I532RZ329M32EZ310P1B21M2H32ZL31LW32U231V531V1325H2ZJ32RR2TD2GO2ZJ21O31WA2TP32UF2U22BL32UA32T032GK2ZJ24P323W32UP32GQ31V128532EA32UU32JJ2ZJ32HR2YP2ZL31IO32TN1B2TP28N2ZJ2GZ31OM2XS2SZ31IO27Z2RM32S12RA2H532TM32EP32CG32KD32EP2TM32TS32TW32TV2H432HS2TC24F328W317332KO1B2RM32VI32JJ2H532NE2RG32CG32TS2RD2TM32VQ310N2RM32TP32TZ32VV2RD2G332SF2TP32WF32V932S02UF2G52RM2T822Q32BV322432SL32VK32SL32VN32SL310N32VQ2792H532LA27A32VU329M32HU32VY32WS31NN32W232AW32W532AW32W831OG32WB31GX325V2XS32V832WH320K32OX2XS31AZ323S32VV32WQ32EA32XS329X32XO2BH22932X732W02XK2H51L32WT32VS32QN32K232WZ32X732WC31OY2RM329Q319832W41B1K322Q2RM32TC2RA31A832X5323W32WJ31LW32XU31LW32V8327O320032TD323A32YU323F27929B323A327U1B21I32BN1F2922ZJ32Z5323132UR32UX32V42BH32V0322F32V332V531ZB1B24Q32RY32VA27A31Z22ZV32VE32SL32TG32VV32TJ32WK32SV32XX32XZ31WL32X02VJ32Y432VO32Y72RA32XG31ID32XI1B325432XL279325431N432ZO321H32WM32X72TG2Y22XS32ZW330G32VV2H732ZZ32VZ330132WR2V032VJ32Y532SP32T12BH3308310G330A32ZM32WG31PH331532XV2U732J42XS241323W331D32XN331A27A32XY330T2RB330232Y3330X330532XE31FO32K2328T319X32YC319732XB32YG32YI32SM32B032YN32EA325431LW331F331732B931ZY32BG27A24532BE332932YV27924R32BJ27A2AH323N32Z731021B332K32T929C323T31FV2ZJ250323W332V32C3332N32UZ32RZ32V231NN2ZO32ZJ332N25132CE2XS31PD31VA2RM31MS32R631X62LT32NK333227932NK32Q8321R32ZV329132XQ2XS252323W333R32OX2H532XP1B32XY32CG32Y02792TM331N32Y6310N3305311432Y832CG32TV31XM319X32CG32YK32YE2RD310N32YH27A31A432XC32PV32WR2V532P925632DS25332DV32Y631GP32Z81B24I2H632Z52ZE32ID331I2ZW32X832Y62ZJ33432XK2ZL33052ZO32Y82ZR31VG2TT2ZJ32Y02RD2ZL32TP2RG2ZO32W632QN32W9332N310F2LS2TT32TL328A1B2ZO21432AW32TR32AW32TU31OG2ZL32TY321O2ZO335I32QN335Z31NN2XS335O2RM335Q2ZO329Q335T32QN33692XS2R731NN2RM335O2H5335Q2XH32T8336J2XS33692RM33582RD32X1331X335Q2XS32YK336J331K2XG33701B336B32JJ334L32JJ331Q32TW3312336J32VH335W32CG336Z32K2335O32WY31OG337132X6333Z335W2TM32VL32JJ334532AW334731OG3349335F32K23369310N32W32RD3114335O2RP335Q2TM2TP336J310N33693114337W2RG2RP335O32KD335Q310N337W336J311433692RP338732E7330Y2RD2ZV335Q311432NE336J2RP336932KD337M2ZV335O2SO335Q2RP32XP336J32KD33692ZV330W32JJ2SO335O32Y3335Q339633832ZV33692SO339I2RG32Y3335O32YH335Q2ZV334I310R2TT2SO336932Y3337M32YH335O2H8335Q2SO316Q336J32Y3336932YH337M2H8335O2V0335Q32Y3339I336J32YH33692H8337B2RG2V0335O2TY335Q32YH323T336J2H833692V0337M2TY335O335Z335Q33AR33832V033692TY21A32AW335Z335O2R7335Q2V0336N33A1318O33552RG335Z31L931NN2R7335O33BE335Q33BD3383335Z33692R733BR32JJ33BE335O31L9335Q33BQ33832R7336933BE337M31L9335O3101335Q2R7310132X633BE336931L933BE31NN3101335O2SS335Q33BE2SS32X631L93369310133CJ32JJ2SS335O1Y331032HS31L933D432X6310133692SS33C22RG33D4335O2H2335Q31012H232X62SS336933D433DD2RD2H2335O1W33D5310N2SS33DT32X633D433692H2337M33DT335O2YY335Q33D42YY32X62H2336933DT33BL2RG2YY335O21233DU2H11B33EH32X633DT33692YY33CV32JJ33EH335O2PY335Q33DT317Y336J2YY336933EH33D832JJ2PY335O2Q0335Q2YY31H2336J33EH33692PY33DK32JJ2Q0335O21N33EI33EH33FI32X62PY33692Q033AS2RD33FI335O32U2335Q2PY32U232X62Q0336933FI337M32U2335O2WT335Q2Q02WT32X633FI336932U233FQ1B2WT335O31Z5335Q33FI31Z532X632U233692WT33DX32JJ31Z5335O21R33EI32U233GT32X62WT336931Z5337M33GT335O2G5335Q2WT2G532X631Z5336933GT33E832JJ2G5335O2HM32VQ31A431Z52HM2TC2H532RF31OD335433EL32OH310J2VH333J331W2TC32NK31ZC32CH32RZ32ES2GG32NK33HN27A32Z5325K2RA32Z5333L2LT32Z532YN316U32WN32B12XS32T831YP32RZ32WR317Y329Q321K2H531H233IN330233FL32X732O7330233FX33IU33IK2H533G833IY33IO1B33GK33IY27A32YK31IZ321K32CG33J5329Q330Z33I4310N33I72LT311433J82RA337F32A62TM32RF2TT310N33IA32ED33JJ32FC33JM322D32K233JP32HS33ID33JT332032LT330631IZ31V932K2325E2AV32NK31PS33I32V232NK31YC333H33KE27A33JH33HU330233HW31GZ333G27A33HY32TD310N32TP32LY32HS32P827A2HO32TF31A032T61B33GW329X2ZJ33H732G1332N310Q33HK31OM32S327A32UF31PM32QN31AV31A4310E2V232VU31YZ2LS31QU2YI33KX31J0316T',{},40,2^16,{},"\115\116\114\105\110\103",'');end;
+--> 保护函数, 请勿删除
+
+local uiName = "绿脚本--忍者传奇（挂机专用）";
+local a =
+    setmetatable(
+    {},
+    {__index = function(self, b)
+            return game.GetService(game, b)
+        end, __call = function(self, b)
+            return game.GetService(game, b)
+        end}
+)
+if a.CoreGui:FindFirstChild(uiName) then
+    if run then
+        run:Disconnect()
+        run = nil
+    end
+    if full then
+        full:Disconnect()
+        full = nil
+    end
+    a.CoreGui[uiName]:Destroy()
+end
+local c = UDim.new
+local d = UDim2.new
+local e = Color3.fromRGB
+local f = Instance.new
+local g = function()
+end
+local h = a.Players.LocalPlayer:GetMouse()
+getgenv().library = {flags = {GetState = function(i, j)
+            return library.flags[j].State
+        end}, modules = {}, currentTab = nil}
+function library:UpdateToggle(j, k)
+    local k = k or library.flags:GetState(j)
+    if k == library.flags:GetState(j) then
+        return
+    end
+    library.flags[j]:SetState(k)
+end
+local l = {}
+function l:Tween(m, n, o, p, q)
+    return a.TweenService:Create(
+        n,
+        TweenInfo.new(o or 0.25, Enum.EasingStyle[p or "Linear"], Enum.EasingDirection[q or "InOut"]),
+        m
+    )
+end
+function l:SwitchTab(r)
+    local s = library.currentTab
+    if s == r then
+        return
+    end
+    library.currentTab = r
+    l:Tween({Transparency = 1}, s[2].Glow):Play()
+    l:Tween({Transparency = 0}, r[2].Glow):Play()
+    s[1].Visible = false
+    r[1].Visible = true
+end
+local t = f("ScreenGui")
+local u = f("TextButton")
+local v = f("Frame")
+local w = f("UICorner")
+local x = f("TextLabel")
+local y = f("UICorner")
+local z = f("Frame")
+local A = f("UICorner")
+local B = f("ScrollingFrame")
+local C = f("UIListLayout")
+local D = f("UIPadding")
+local E = f("Frame")
+local F = f("UICorner")
+t.Name = uiName
+t.Parent = a.CoreGui
+v.Name = "Main"
+v.Parent = t
+v.BackgroundColor3 = e(52, 62, 72)
+v.BorderSizePixel = 0
+v.Position = d(0.5, 0, 0.5, 0)
+v.Size = d(0, 448, 0, 280)
+v.AnchorPoint = Vector2.new(0.5, 0.5)
+v.Active = true
+v.Draggable = true
+w.CornerRadius = c(0, 6)
+w.Name = "MainCorner"
+w.Parent = v
+x.Parent = v
+x.BackgroundColor3 = e(58, 69, 80)
+x.BorderSizePixel = 0
+x.Position = d(0, 6, 0, 6)
+x.Size = d(0, 436, 0, 24)
+x.Font = Enum.Font.GothamBold
+x.Text = "  " .. uiName
+x.TextColor3 = e(255, 255, 255)
+x.TextSize = 14.000
+x.TextXAlignment = Enum.TextXAlignment.Left
+u.Name = "Open"
+u.Parent = t
+u.BackgroundColor3 = v.BackgroundColor3
+u.Position = UDim2.new(0.839879155, 0, -0.0123076923, 0)
+u.BorderSizePixel = 2
+u.BorderColor3 = x.BackgroundColor3
+u.Size = UDim2.new(0, 55, 0, 25)
+u.Font = Enum.Font.SourceSans
+u.Text = "隐藏"
+u.TextColor3 = Color3.fromRGB(255, 255, 255)
+u.TextSize = 14.000
+u.Active = true
+u.Draggable = true
+u.MouseButton1Down:connect(
+    function()
+        TOGGLE = not TOGGLE
+        v.Visible = TOGGLE
+        u.Text = TOGGLE and "隐藏" or "打开"
+    end
+)
+y.CornerRadius = c(0, 6)
+y.Name = "TextLabelCorner"
+y.Parent = x
+z.Name = "Sidebar"
+z.Parent = v
+z.BackgroundColor3 = e(58, 69, 80)
+z.BorderSizePixel = 0
+z.Position = d(0, 6, 0, 36)
+z.Size = d(0, 106, 0, 238)
+A.CornerRadius = c(0, 6)
+A.Name = "SidebarCorner"
+A.Parent = z
+B.Name = "TabButtons"
+B.Parent = z
+B.Active = true
+B.BackgroundColor3 = e(255, 255, 255)
+B.BackgroundTransparency = 1.000
+B.BorderSizePixel = 0
+B.Size = d(0, 106, 0, 238)
+B.ScrollBarThickness = 0
+C.Parent = B
+C.HorizontalAlignment = Enum.HorizontalAlignment.Center
+C.SortOrder = Enum.SortOrder.LayoutOrder
+C.Padding = c(0, 5)
+D.Parent = B
+D.PaddingTop = c(0, 6)
+E.Name = "TabHolder"
+E.Parent = v
+E.BackgroundColor3 = e(58, 69, 80)
+E.BorderSizePixel = 0
+E.Position = d(0, 118, 0, 36)
+E.Size = d(0, 324, 0, 238)
+F.CornerRadius = c(0, 6)
+F.Name = "TabHolderCorner"
+F.Parent = E
+C:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(
+    function()
+        B.CanvasSize = d(0, 0, 0, C.AbsoluteContentSize.Y + 12)
+    end
+)
+function createBaseNotifications()
+    if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("NotificationHolder") then
+        return game:GetService("Players").LocalPlayer.PlayerGui.NotificationHolder
+    end
+    local G = Instance.new("ScreenGui")
+    G.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    local H = Instance.new("Frame")
+    H.Name = "ToggleNotif"
+    H.ZIndex = 5
+    H.AnchorPoint = Vector2.new(1, 1)
+    H.Visible = false
+    H.Size = UDim2.new(0, 291, 0, 56)
+    H.Position = UDim2.new(1, 0, 1, 0)
+    H.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+    H.Parent = G
+    local I = Instance.new("UICorner")
+    I.Name = "UiCorner"
+    I.Parent = H
+    local J = Instance.new("UIStroke")
+    J.Name = "Dropshadow"
+    J.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    J.Transparency = 0.8
+    J.Thickness = 2
+    J.Color = Color3.fromRGB(20, 20, 20)
+    J.Parent = H
+    local K = Instance.new("Frame")
+    K.Name = "SepVertical"
+    K.Size = UDim2.new(0, 2, 0, 56)
+    K.BackgroundTransparency = 0.5
+    K.Position = UDim2.new(0.7423077, 0, 0, 0)
+    K.BorderSizePixel = 0
+    K.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+    K.Parent = H
+    local L = Instance.new("Frame")
+    L.Name = "SepHorizontal"
+    L.Size = UDim2.new(0, 72, 0, 2)
+    L.BackgroundTransparency = 0.5
+    L.Position = UDim2.new(0.75, 0, 0.4464286, 2)
+    L.BorderSizePixel = 0
+    L.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+    L.Parent = H
+    local M = Instance.new("TextLabel")
+    M.Name = "Title"
+    M.Size = UDim2.new(0, 216, 0, 19)
+    M.BackgroundTransparency = 1
+    M.BorderSizePixel = 0
+    M.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    M.FontSize = Enum.FontSize.Size14
+    M.TextSize = 14
+    M.TextColor3 = Color3.fromRGB(255, 255, 255)
+    M.Font = Enum.Font.SourceSans
+    M.Parent = H
+    local N = Instance.new("TextLabel")
+    N.Name = "Paragraph"
+    N.Size = UDim2.new(0, 218, 0, 37)
+    N.BackgroundTransparency = 1
+    N.Position = UDim2.new(0, 0, 0.3392857, 0)
+    N.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    N.FontSize = Enum.FontSize.Size14
+    N.TextSize = 14
+    N.TextColor3 = Color3.fromRGB(255, 255, 255)
+    N.Text = ""
+    N.TextYAlignment = Enum.TextYAlignment.Top
+    N.TextWrapped = true
+    N.Font = Enum.Font.SourceSans
+    N.TextWrap = true
+    N.TextXAlignment = Enum.TextXAlignment.Left
+    N.Parent = H
+    local O = Instance.new("UIPadding")
+    O.PaddingLeft = UDim.new(0, 10)
+    O.PaddingRight = UDim.new(0, 5)
+    O.Parent = N
+    local P = Instance.new("TextButton")
+    P.Name = "True"
+    P.Size = UDim2.new(0, 72, 0, 27)
+    P.BackgroundTransparency = 1
+    P.Position = UDim2.new(0.75, 0, 0, 0)
+    P.BorderSizePixel = 0
+    P.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    P.FontSize = Enum.FontSize.Size14
+    P.TextSize = 14
+    P.TextColor3 = Color3.fromRGB(300, 255, 255)
+    P.Text = "Yes"
+    P.Font = Enum.Font.SourceSans
+    P.Parent = H
+    local Q = Instance.new("TextButton")
+    Q.Name = "False"
+    Q.Size = UDim2.new(0, 80, 0, 27)
+    Q.BackgroundTransparency = 1
+    Q.Position = UDim2.new(0.75, 0, 0.5178571, 0)
+    Q.BorderSizePixel = 0
+    Q.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Q.FontSize = Enum.FontSize.Size14
+    Q.TextSize = 14
+    Q.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Q.Text = "No"
+    Q.Font = Enum.Font.SourceSans
+    Q.Parent = H
+    local R = Instance.new("LocalScript")
+    R.Parent = G
+    local S = Instance.new("Frame")
+    S.Name = "DefaultNotif"
+    S.ZIndex = 5
+    S.AnchorPoint = Vector2.new(1, 1)
+    S.Visible = false
+    S.Size = UDim2.new(0, 291, 0, 56)
+    S.Position = UDim2.new(1, 0, 0.9999999, 0)
+    S.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+    S.Parent = G
+    local T = Instance.new("UICorner")
+    T.Name = "UiCorner"
+    T.Parent = S
+    local U = Instance.new("UIStroke")
+    U.Name = "Dropshadow"
+    U.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    U.Transparency = 0.8
+    U.Thickness = 2
+    U.Color = Color3.fromRGB(20, 20, 20)
+    U.Parent = S
+    local V = Instance.new("TextLabel")
+    V.Name = "Title"
+    V.Size = UDim2.new(0, 291, 0, 19)
+    V.BackgroundTransparency = 1
+    V.BorderSizePixel = 0
+    V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    V.FontSize = Enum.FontSize.Size14
+    V.TextSize = 14
+    V.TextColor3 = Color3.fromRGB(255, 255, 255)
+    V.Font = Enum.Font.SourceSans
+    V.Parent = S
+    local W = Instance.new("TextLabel")
+    W.Name = "Paragraph"
+    W.Size = UDim2.new(0, 291, 0, 37)
+    W.BackgroundTransparency = 1
+    W.Position = UDim2.new(0, 0, 0.3392857, 0)
+    W.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    W.FontSize = Enum.FontSize.Size14
+    W.TextSize = 14
+    W.TextColor3 = Color3.fromRGB(255, 255, 255)
+    W.Text = ""
+    W.TextYAlignment = Enum.TextYAlignment.Top
+    W.TextWrapped = true
+    W.Font = Enum.Font.SourceSans
+    W.TextWrap = true
+    W.TextXAlignment = Enum.TextXAlignment.Left
+    W.Parent = S
+    local X = Instance.new("UIPadding")
+    X.PaddingLeft = UDim.new(0, 10)
+    X.PaddingRight = UDim.new(0, 5)
+    X.Parent = W
+    if syn then
+        syn.protect_gui(G)
+    end
+    G.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+    return G
+end
+notificationHolder = createBaseNotifications()
+notifAmount = 0
+removedPos = nil
+function library:SelectNotify(Y)
+    Y = Y or {}
+    Y.TweenSpeed = Y.TweenSpeed or 1
+    Y.TweenInSpeed = Y.TweenInSpeed or Y.TweenSpeed
+    Y.TweenOutSpeed = Y.TweenOutSpeed or Y.TweenSpeed
+    Y.TweenVerticalSpeed = Y.TweenVerticalSpeed or Y.TweenSpeed
+    Y.Title = Y.Title or "Title"
+    Y.Text = Y.Text or "Text"
+    Y.TrueText = Y.TrueText or "Yes"
+    Y.FalseText = Y.FalseText or "No"
+    Y.Duration = Y.Duration or 5
+    Y.Callback = Y.Callback or function()
+            warn("No callback for notif")
+        end
+    notifAmount = notifAmount + 1
+    local Z = notifAmount
+    local _ = notifAmount
+    local a0 = true
+    local a1 = notificationHolder.ToggleNotif:Clone()
+    local a2 = false
+    a1.Parent = notificationHolder
+    a1.Visible = true
+    a1.Position = UDim2.new(1, 300, 1, -5)
+    a1.Transparency = 0.05
+    a1.True.Text = Y.TrueText
+    a1.False.Text = Y.FalseText
+    task.spawn(
+        function()
+            task.wait(Y.Duration + Y.TweenInSpeed)
+            a0 = false
+        end
+    )
+    a1.True.MouseButton1Click:Connect(
+        function()
+            a0 = false
+            a2 = true
+            notifAmount = notifAmount - 1
+            removedPos = a1.Position.Y.Offset
+            pcall(Y.Callback, true)
+        end
+    )
+    a1.False.MouseButton1Click:Connect(
+        function()
+            a0 = false
+            a2 = true
+            notifAmount = notifAmount - 1
+            removedPos = a1.Position.Y.Offset
+            pcall(Y.Callback, false)
+        end
+    )
+    a1.Paragraph.Text = Y.Text
+    a1.Title.Text = Y.Title
+    a1:TweenPosition(UDim2.new(1, -5, 1, -5), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, Y.TweenInSpeed)
+    task.spawn(
+        function()
+            local a3 = a1.Position
+            while a0 and task.wait() do
+                local a4 = a1.Position
+                if notifAmount > Z then
+                    a1:TweenPosition(
+                        UDim2.new(1, -5, 1, a3.Y.Offset - 65 * (notifAmount - _)),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Quint,
+                        Y.TweenVerticalSpeed,
+                        true
+                    )
+                    Z = Z + 1
+                end
+                if notifAmount < Z then
+                    if removedPos > a4.Y.Offset then
+                        a1:TweenPosition(
+                            UDim2.new(1, -5, 1, a3.Y.Offset - 65 * (notifAmount - _)),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quint,
+                            Y.TweenVerticalSpeed,
+                            true
+                        )
+                    else
+                        _ = _ - 1
+                    end
+                    Z = Z - 1
+                end
+            end
+            local a4 = a1.Position
+            if a2 == false then
+                notifAmount = notifAmount - 1
+                removedPos = a1.Position.Y.Offset
+            end
+            a1:TweenPosition(
+                UDim2.new(1, 300, 1, a4.Y.Offset),
+                Enum.EasingDirection.Out,
+                Enum.EasingStyle.Quint,
+                Y.TweenOutSpeed,
+                true
+            )
+            task.wait(Y.TweenOutSpeed)
+            a1:Destroy()
+        end
+    )
+end
+function library:Notify(Y)
+    Y = Y or {}
+    Y.TweenSpeed = Y.TweenSpeed or 1
+    Y.TweenInSpeed = Y.TweenInSpeed or Y.TweenSpeed
+    Y.TweenOutSpeed = Y.TweenOutSpeed or Y.TweenSpeed
+    Y.TweenVerticalSpeed = Y.TweenVerticalSpeed or Y.TweenSpeed
+    Y.Title = Y.Title or "Title"
+    Y.Text = Y.Text or "Text"
+    Y.Duration = Y.Duration or 5
+    notifAmount = notifAmount + 1
+    local Z = notifAmount
+    local _ = notifAmount
+    local a2 = false
+    local a0 = true
+    local a1 = notificationHolder.DefaultNotif:Clone()
+    a1.Parent = notificationHolder
+    a1.Visible = true
+    a1.Position = UDim2.new(1, 300, 1, -5)
+    a1.Transparency = 0.05
+    a1.InputBegan:Connect(
+        function(a5)
+            if a5.UserInputType == Enum.UserInputType.MouseButton1 then
+                task.spawn(
+                    function()
+                        local a6 = TweenInfo.new(0.5, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
+                        game:GetService("TweenService"):Create(a1, a6, {Transparency = 0.8}):Play()
+                    end
+                )
+                a0 = false
+                a2 = true
+                notifAmount = notifAmount - 1
+                removedPos = a1.Position.Y.Offset
+            end
+        end
+    )
+    task.spawn(
+        function()
+            task.wait(Y.Duration + Y.TweenInSpeed)
+            a0 = false
+        end
+    )
+    a1.Paragraph.Text = Y.Text
+    a1.Title.Text = Y.Title
+    a1:TweenPosition(UDim2.new(1, -5, 1, -5), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, Y.TweenInSpeed)
+    task.spawn(
+        function()
+            local a3 = a1.Position
+            while a0 and task.wait() do
+                local a4 = a1.Position
+                if notifAmount > Z then
+                    a1:TweenPosition(
+                        UDim2.new(1, -5, 1, a3.Y.Offset - 65 * (notifAmount - _)),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Quint,
+                        Y.TweenVerticalSpeed,
+                        true
+                    )
+                    Z = Z + 1
+                end
+                if notifAmount < Z then
+                    if removedPos > a4.Y.Offset then
+                        a1:TweenPosition(
+                            UDim2.new(1, -5, 1, a3.Y.Offset - 65 * (notifAmount - _)),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quint,
+                            Y.TweenVerticalSpeed,
+                            true
+                        )
+                    else
+                        _ = _ - 1
+                    end
+                    Z = Z - 1
+                end
+            end
+            local a4 = a1.Position
+            if a2 == false then
+                notifAmount = notifAmount - 1
+                removedPos = a1.Position.Y.Offset
+            end
+            a1:TweenPosition(
+                UDim2.new(1, 300, 1, a4.Y.Offset),
+                Enum.EasingDirection.Out,
+                Enum.EasingStyle.Quint,
+                Y.TweenOutSpeed,
+                true
+            )
+            task.wait(Y.TweenOutSpeed)
+            a1:Destroy()
+        end
+    )
+end
+function library:CreateTab(a7)
+    local a8 = f("TextButton")
+    local a9 = f("UICorner")
+    local aa = f("Frame")
+    local ab = f("UICorner")
+    local ac = f("UIGradient")
+    local ad = f("ScrollingFrame")
+    local ae = f("UIPadding")
+    local af = f("UIListLayout")
+    a8.Name = "TabButton"
+    a8.Parent = B
+    a8.BackgroundColor3 = e(52, 62, 72)
+    a8.BorderSizePixel = 0
+    a8.Size = d(0, 94, 0, 28)
+    a8.AutoButtonColor = false
+    a8.Font = Enum.Font.GothamSemibold
+    a8.Text = a7
+    a8.TextColor3 = e(255, 255, 255)
+    a8.TextSize = 14.000
+    a9.CornerRadius = c(0, 6)
+    a9.Name = "TabButtonCorner"
+    a9.Parent = a8
+    aa.Name = "Glow"
+    aa.Parent = a8
+    aa.BackgroundColor3 = e(255, 255, 255)
+    aa.BorderSizePixel = 0
+    aa.Position = d(0, 0, 0.928571463, 0)
+    aa.Size = d(0, 94, 0, 2)
+    aa.Transparency = 1
+    ab.CornerRadius = c(0, 6)
+    ab.Name = "GlowCorner"
+    ab.Parent = aa
+    ac.Color =
+        ColorSequence.new {
+        ColorSequenceKeypoint.new(0.00, e(52, 62, 72)),
+        ColorSequenceKeypoint.new(0.50, e(255, 255, 255)),
+        ColorSequenceKeypoint.new(1.00, e(52, 62, 72))
+    }
+    ac.Name = "GlowGradient"
+    ac.Parent = aa
+    ad.Name = "Tab"
+    ad.Parent = E
+    ad.Active = true
+    ad.BackgroundColor3 = e(255, 255, 255)
+    ad.BackgroundTransparency = 1.000
+    ad.BorderSizePixel = 0
+    ad.Size = d(0, 324, 0, 238)
+    ad.ScrollBarThickness = 0
+    ad.Visible = false
+    if library.currentTab == nil then
+        library.currentTab = {ad, a8}
+        aa.Transparency = 0
+        ad.Visible = true
+    end
+    ae.Name = "TabPadding"
+    ae.Parent = ad
+    ae.PaddingTop = c(0, 6)
+    af.Name = "TabLayout"
+    af.Parent = ad
+    af.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    af.SortOrder = Enum.SortOrder.LayoutOrder
+    af.Padding = c(0, 5)
+    af:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(
+        function()
+            ad.CanvasSize = d(0, 0, 0, af.AbsoluteContentSize.Y + 12)
+        end
+    )
+    a8.MouseButton1Click:Connect(
+        function()
+            l:SwitchTab({ad, a8})
+        end
+    )
+    local ag = {}
+    function ag:NewSeparator()
+        local ah = f("Frame")
+        ah.Transparency = 1
+        ah.Size = d(0, 0, 0, 0)
+        ah.BorderSizePixel = 0
+        ah.Parent = ad
+    end
+    function ag:NewButton(ai, aj)
+        local aj = aj or g
+        local ak = f("TextButton")
+        local al = f("UICorner")
+        ak.Name = "BtnModule"
+        ak.Parent = ad
+        ak.BackgroundColor3 = e(52, 62, 72)
+        ak.BorderSizePixel = 0
+        ak.Size = d(0, 312, 0, 28)
+        ak.AutoButtonColor = false
+        ak.Font = Enum.Font.GothamSemibold
+        ak.Text = "  " .. ai
+        ak.TextColor3 = e(255, 255, 255)
+        ak.TextSize = 14.000
+        ak.TextXAlignment = Enum.TextXAlignment.Left
+        al.CornerRadius = c(0, 6)
+        al.Name = "BtnModuleCorner"
+        al.Parent = ak
+        ak.MouseButton1Click:Connect(aj)
+    end
+    function ag:NewToggle(ai, j, am, aj)
+        local aj = aj or g
+        local am = am or false
+        local an = f("TextButton")
+        local ao = f("UICorner")
+        local ap = f("Frame")
+        local aq = f("UIGradient")
+        local ar = f("UICorner")
+        local as = f("Frame")
+        local at = f("UICorner")
+        local au = f("UIGradient")
+        library.flags[j or ai] = {
+            State = false,
+            Callback = aj,
+            SetState = function(self, k)
+                local k = k ~= nil and k or not library.flags:GetState(j)
+                library.flags[j].State = k
+                task.spawn(
+                    function()
+                        library.flags[j].Callback(k)
+                    end
+                )
+                l:Tween({Transparency = k and 1 or 0}, ap):Play()
+                l:Tween({Transparency = k and 0 or 1}, as):Play()
+            end
+        }
+        an.Name = "ToggleModule"
+        an.Parent = ad
+        an.BackgroundColor3 = e(52, 62, 72)
+        an.BorderSizePixel = 0
+        an.Size = d(0, 312, 0, 28)
+        an.AutoButtonColor = false
+        an.Font = Enum.Font.GothamSemibold
+        an.Text = "  " .. ai
+        an.TextColor3 = e(255, 255, 255)
+        an.TextSize = 14.000
+        an.TextXAlignment = Enum.TextXAlignment.Left
+        ao.CornerRadius = c(0, 6)
+        ao.Name = "ToggleModuleCorner"
+        ao.Parent = an
+        ap.Name = "OffStatus"
+        ap.Parent = an
+        ap.BackgroundColor3 = e(255, 255, 255)
+        ap.BorderSizePixel = 0
+        ap.Position = d(0.878205061, 0, 0.178571433, 0)
+        ap.Size = d(0, 34, 0, 18)
+        aq.Color =
+            ColorSequence.new {
+            ColorSequenceKeypoint.new(0.00, e(255, 83, 83)),
+            ColorSequenceKeypoint.new(0.15, e(255, 83, 83)),
+            ColorSequenceKeypoint.new(0.62, e(52, 62, 72)),
+            ColorSequenceKeypoint.new(1.00, e(52, 62, 72))
+        }
+        aq.Rotation = 300
+        aq.Name = "OffGrad"
+        aq.Parent = ap
+        ar.CornerRadius = c(0, 4)
+        ar.Name = "OffStatusCorner"
+        ar.Parent = ap
+        as.Name = "OnStatus"
+        as.Parent = an
+        as.BackgroundColor3 = e(255, 255, 255)
+        as.BackgroundTransparency = 1.000
+        as.BorderSizePixel = 0
+        as.Position = d(0.878205121, 0, 0.178571433, 0)
+        as.Size = d(0, 34, 0, 18)
+        as.Transparency = 1
+        at.CornerRadius = c(0, 4)
+        at.Name = "OnStatusCorner"
+        at.Parent = as
+        au.Color =
+            ColorSequence.new {
+            ColorSequenceKeypoint.new(0.00, e(52, 62, 72)),
+            ColorSequenceKeypoint.new(0.38, e(48, 57, 67)),
+            ColorSequenceKeypoint.new(1.00, e(53, 255, 134))
+        }
+        au.Rotation = 300
+        au.Name = "OnGrad"
+        au.Parent = as
+        an.MouseButton1Click:Connect(
+            function()
+                library.flags[j or ai]:SetState()
+            end
+        )
+        if am then
+            library.flags[j or ai]:SetState(am)
+        end
+    end
+    function ag:NewBind(ai, av, aj)
+        local av = Enum.KeyCode[av]
+        local aw = {
+            Return = true,
+            Space = true,
+            Tab = true,
+            Backquote = true,
+            CapsLock = true,
+            Escape = true,
+            Unknown = true
+        }
+        local ax = {
+            RightControl = "Right Ctrl",
+            LeftControl = "Left Ctrl",
+            LeftShift = "Left Shift",
+            RightShift = "Right Shift",
+            Semicolon = ";",
+            Quote = '"',
+            LeftBracket = "[",
+            RightBracket = "]",
+            Equals = "=",
+            Minus = "-",
+            RightAlt = "Right Alt",
+            LeftAlt = "Left Alt"
+        }
+        local ay = av
+        local az = av and (ax[av.Name] or av.Name) or "None"
+        local aA = f("TextButton")
+        local aB = f("UICorner")
+        local aC = f("TextButton")
+        local aD = f("UICorner")
+        aA.Name = "KeybindModule"
+        aA.Parent = ad
+        aA.BackgroundColor3 = e(52, 62, 72)
+        aA.BorderSizePixel = 0
+        aA.Size = d(0, 312, 0, 28)
+        aA.AutoButtonColor = false
+        aA.Font = Enum.Font.GothamSemibold
+        aA.Text = "  " .. ai
+        aA.TextColor3 = e(255, 255, 255)
+        aA.TextSize = 14.000
+        aA.TextXAlignment = Enum.TextXAlignment.Left
+        aB.CornerRadius = c(0, 6)
+        aB.Name = "KeybindModuleCorner"
+        aB.Parent = aA
+        aC.Name = "KeybindValue"
+        aC.Parent = aA
+        aC.BackgroundColor3 = e(58, 69, 80)
+        aC.BorderSizePixel = 0
+        aC.Position = d(0.75, 0, 0.178571433, 0)
+        aC.Size = d(0, 74, 0, 18)
+        aC.AutoButtonColor = false
+        aC.Font = Enum.Font.Gotham
+        aC.Text = az
+        aC.TextColor3 = e(255, 255, 255)
+        aC.TextSize = 12.000
+        aD.CornerRadius = c(0, 4)
+        aD.Name = "KeybindValueCorner"
+        aD.Parent = aC
+        a.UserInputService.InputBegan:Connect(
+            function(aE, aF)
+                if aF then
+                    return
+                end
+                if aE.UserInputType ~= Enum.UserInputType.Keyboard then
+                    return
+                end
+                if aE.KeyCode ~= ay then
+                    return
+                end
+                aj(ay.Name)
+            end
+        )
+        aC.MouseButton1Click:Connect(
+            function()
+                aC.Text = "..."
+                wait()
+                local aG, aH = a.UserInputService.InputEnded:Wait()
+                local aI = tostring(aG.KeyCode.Name)
+                if aG.UserInputType ~= Enum.UserInputType.Keyboard then
+                    aC.Text = az
+                    return
+                end
+                if aw[aI] then
+                    aC.Text = az
+                    return
+                end
+                wait()
+                ay = Enum.KeyCode[aI]
+                aC.Text = ax[aI] or aI
+            end
+        )
+    end
+    function ag:NewSlider(ai, j, av, aJ, aK, aL, aj)
+        local av = av or aJ
+        local aj = aj or g
+        local aM = f("TextButton")
+        local aN = f("UICorner")
+        local aO = f("Frame")
+        local aP = f("UICorner")
+        local aQ = f("Frame")
+        local aR = f("UICorner")
+        local aS = f("TextBox")
+        local aT = f("UICorner")
+        local aU = f("TextButton")
+        local aV = f("TextButton")
+        library.flags[j] = {State = av, SetValue = function(self, k)
+                local aW = (h.X - aO.AbsolutePosition.X) / aO.AbsoluteSize.X
+                if k then
+                    aW = (k - aJ) / (aK - aJ)
+                end
+                aW = math.clamp(aW, 0, 1)
+                if aL then
+                    k = k or tonumber(string.format("%.1f", tostring(aJ + (aK - aJ) * aW)))
+                else
+                    k = k or math.floor(aJ + (aK - aJ) * aW)
+                end
+                library.flags[j].State = tonumber(k)
+                aS.Text = tostring(k)
+                aQ.Size = d(aW, 0, 1, 0)
+                aj(tonumber(k))
+            end}
+        aM.Name = "SliderModule"
+        aM.Parent = ad
+        aM.BackgroundColor3 = e(52, 62, 72)
+        aM.BorderSizePixel = 0
+        aM.Position = d(0, 0, -0.140425533, 0)
+        aM.Size = d(0, 312, 0, 28)
+        aM.AutoButtonColor = false
+        aM.Font = Enum.Font.GothamSemibold
+        aM.Text = "  " .. ai
+        aM.TextColor3 = e(255, 255, 255)
+        aM.TextSize = 14.000
+        aM.TextXAlignment = Enum.TextXAlignment.Left
+        aN.CornerRadius = c(0, 6)
+        aN.Name = "SliderModuleCorner"
+        aN.Parent = aM
+        aO.Name = "SliderBar"
+        aO.Parent = aM
+        aO.BackgroundColor3 = e(58, 69, 80)
+        aO.BorderSizePixel = 0
+        aO.Position = d(0.442307681, 0, 0.392857134, 0)
+        aO.Size = d(0, 108, 0, 6)
+        aP.CornerRadius = c(0, 2)
+        aP.Name = "SliderBarCorner"
+        aP.Parent = aO
+        aQ.Name = "SliderPart"
+        aQ.Parent = aO
+        aQ.BackgroundColor3 = e(255, 255, 255)
+        aQ.BorderSizePixel = 0
+        aQ.Size = d(0, 0, 0, 6)
+        aR.CornerRadius = c(0, 2)
+        aR.Name = "SliderPartCorner"
+        aR.Parent = aQ
+        aS.Name = "SliderValue"
+        aS.Parent = aM
+        aS.BackgroundColor3 = e(58, 69, 80)
+        aS.BorderSizePixel = 0
+        aS.Position = d(0.884615362, 0, 0.178571433, 0)
+        aS.Size = d(0, 32, 0, 18)
+        aS.Font = Enum.Font.Gotham
+        aS.Text = av or aJ
+        aS.TextColor3 = e(255, 255, 255)
+        aS.TextSize = 12.000
+        aT.CornerRadius = c(0, 4)
+        aT.Name = "SliderValueCorner"
+        aT.Parent = aS
+        aU.Name = "AddSlider"
+        aU.Parent = aM
+        aU.BackgroundColor3 = e(255, 255, 255)
+        aU.BackgroundTransparency = 1.000
+        aU.BorderSizePixel = 0
+        aU.Position = d(0.807692289, 0, 0.178571433, 0)
+        aU.Size = d(0, 18, 0, 18)
+        aU.Font = Enum.Font.Gotham
+        aU.Text = "+"
+        aU.TextColor3 = e(255, 255, 255)
+        aU.TextSize = 18.000
+        aV.Name = "MinusSlider"
+        aV.Parent = aM
+        aV.BackgroundColor3 = e(255, 255, 255)
+        aV.BackgroundTransparency = 1.000
+        aV.BorderSizePixel = 0
+        aV.Position = d(0.365384609, 0, 0.178571433, 0)
+        aV.Size = d(0, 18, 0, 18)
+        aV.Font = Enum.Font.Gotham
+        aV.Text = "-"
+        aV.TextColor3 = e(255, 255, 255)
+        aV.TextSize = 18.000
+        aV.MouseButton1Click:Connect(
+            function()
+                local aX = library.flags:GetState(j)
+                aX = math.clamp(aX - 1, aJ, aK)
+                library.flags[j]:SetValue(aX)
+            end
+        )
+        aU.MouseButton1Click:Connect(
+            function()
+                local aX = library.flags:GetState(j)
+                aX = math.clamp(aX + 1, aJ, aK)
+                library.flags[j]:SetValue(aX)
+            end
+        )
+        library.flags[j]:SetValue(av)
+        local aY, aZ, a_ = false, false, {[""] = true, ["-"] = true}
+        aO.InputBegan:Connect(
+            function(b0)
+                if b0.UserInputType == Enum.UserInputType.MouseButton1 or b0.UserInputType == Enum.UserInputType.Touch then
+                    library.flags[j]:SetValue()
+                    aY = true
+                end
+            end
+        )
+        a.UserInputService.InputEnded:Connect(
+            function(b0)
+                if
+                    aY and b0.UserInputType == Enum.UserInputType.MouseButton1 or
+                        b0.UserInputType == Enum.UserInputType.Touch
+                 then
+                    aY = false
+                end
+            end
+        )
+        a.UserInputService.InputChanged:Connect(
+            function(b0)
+                if aY == true then
+                    library.flags[j]:SetValue()
+                end
+            end
+        )
+        aS.Focused:Connect(
+            function()
+                aZ = true
+            end
+        )
+        aS.FocusLost:Connect(
+            function()
+                aZ = false
+                if aS.Text == "" then
+                    library.flags[j]:SetValue(av)
+                end
+            end
+        )
+        aS:GetPropertyChangedSignal("Text"):Connect(
+            function()
+                if not aZ then
+                    return
+                end
+                aS.Text = aS.Text:gsub("%D+", "")
+                local ai = aS.Text
+                if not tonumber(ai) then
+                    aS.Text = aS.Text:gsub("%D+", "")
+                elseif not a_[ai] then
+                    if tonumber(ai) > aK then
+                        ai = aK
+                        aS.Text = tostring(aK)
+                    end
+                    library.flags[j]:SetValue(tonumber(ai))
+                end
+            end
+        )
+    end
+    function ag:NewDropdown(ai, j, b1, aj)
+        local aj = aj or g
+        library.flags[j] = {State = b1[1]}
+        local b2 = f("TextButton")
+        local b3 = f("UICorner")
+        local b4 = f("TextBox")
+        local b5 = f("TextButton")
+        local b6 = f("TextButton")
+        local b7 = f("UICorner")
+        local b8 = f("UIListLayout")
+        local b9 = f("UIPadding")
+        b2.Name = "DropdownModule"
+        b2.Parent = ad
+        b2.BackgroundColor3 = e(52, 62, 72)
+        b2.BorderSizePixel = 0
+        b2.Size = d(0, 312, 0, 28)
+        b2.AutoButtonColor = false
+        b2.Font = Enum.Font.GothamSemibold
+        b2.Text = ""
+        b2.TextColor3 = e(255, 255, 255)
+        b2.TextSize = 14.000
+        b2.TextXAlignment = Enum.TextXAlignment.Left
+        b3.CornerRadius = c(0, 6)
+        b3.Name = "DropdownModuleCorner"
+        b3.Parent = b2
+        b4.Name = "DropdownText"
+        b4.Parent = b2
+        b4.BackgroundColor3 = e(255, 255, 255)
+        b4.BackgroundTransparency = 1.000
+        b4.Position = d(0.025641026, 0, 0, 0)
+        b4.Size = d(0, 192, 0, 28)
+        b4.Font = Enum.Font.GothamSemibold
+        b4.PlaceholderText = ai
+        b4.PlaceholderColor3 = e(255, 255, 255)
+        b4.TextColor3 = e(255, 255, 255)
+        b4.TextSize = 14.000
+        b4.TextXAlignment = Enum.TextXAlignment.Left
+        b4.Text = ""
+        b5.Name = "OpenDropdown"
+        b5.Parent = b2
+        b5.BackgroundColor3 = e(255, 255, 255)
+        b5.BackgroundTransparency = 1.000
+        b5.BorderSizePixel = 0
+        b5.Position = d(0.907051265, 0, 0.178571433, 0)
+        b5.Size = d(0, 18, 0, 18)
+        b5.Font = Enum.Font.Gotham
+        b5.Text = "+"
+        b5.TextColor3 = e(255, 255, 255)
+        b5.TextSize = 22.000
+        b6.Name = "DropdownBottom"
+        b6.Parent = ad
+        b6.BackgroundColor3 = e(52, 62, 72)
+        b6.BorderSizePixel = 0
+        b6.ClipsDescendants = true
+        b6.Position = d(0.0185185187, 0, 0.206896558, 0)
+        b6.Size = d(0, 312, 0, 0)
+        b6.AutoButtonColor = false
+        b6.Font = Enum.Font.GothamSemibold
+        b6.Text = ""
+        b6.TextColor3 = e(255, 255, 255)
+        b6.TextSize = 14.000
+        b6.TextXAlignment = Enum.TextXAlignment.Left
+        b6.Visible = false
+        b7.CornerRadius = c(0, 6)
+        b7.Name = "DropdownBottomCorner"
+        b7.Parent = b6
+        b8.Name = "DropdownBottomLayout"
+        b8.Parent = b6
+        b8.HorizontalAlignment = Enum.HorizontalAlignment.Center
+        b8.SortOrder = Enum.SortOrder.LayoutOrder
+        b8.Padding = c(0, 6)
+        b9.Name = "DropdownBottomPadding"
+        b9.Parent = b6
+        b9.PaddingTop = c(0, 6)
+        local ba = false
+        b8:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(
+            function()
+                if not ba then
+                    return
+                end
+                l:Tween({Size = d(0, 312, 0, b8.AbsoluteContentSize.Y + 12)}, b6, 0.1):Play()
+            end
+        )
+        local bb = function()
+            local bc = b4.Text
+            for bd, be in next, b6:GetChildren() do
+                if be:IsA("TextButton") then
+                    if string.find(be.Name:lower(), bc:lower()) then
+                        be.Visible = true
+                    else
+                        be.Visible = false
+                    end
+                end
+            end
+        end
+        local bf = function(ai)
+            local b1 = b6:GetChildren()
+            for bg = 1, #b1 do
+                local bh = b1[bg]
+                if ai == "" then
+                    bb()
+                else
+                    if bh:IsA("TextButton") then
+                        if bh.Name:lower():sub(1, string.len(ai)) == ai:lower() then
+                            bh.Visible = true
+                        else
+                            bh.Visible = false
+                        end
+                    end
+                end
+            end
+        end
+        local bi = function()
+            ba = not ba
+            if ba then
+                b6.Visible = true
+                bb()
+            else
+                task.spawn(
+                    function()
+                        task.wait(0.35)
+                        b6.Visible = false
+                    end
+                )
+            end
+            b5.Text = ba and "-" or "+"
+            l:Tween({Size = d(0, 312, 0, ba and b8.AbsoluteContentSize.Y + 12 or 0)}, b6, 0.35):Play()
+        end
+        b5.MouseButton1Click:Connect(bi)
+        b4.Focused:Connect(
+            function()
+                if ba then
+                    return
+                end
+                bi()
+            end
+        )
+        b4:GetPropertyChangedSignal("Text"):Connect(
+            function()
+                local bc = b4.Text
+                for bd, be in next, b6:GetChildren() do
+                    if be:IsA("TextButton") then
+                        if string.find(be.Name:lower(), bc:lower()) then
+                            be.Visible = true
+                        else
+                            be.Visible = false
+                        end
+                    end
+                end
+            end
+        )
+        library.flags[j].SetOptions = function(self, b1)
+            library.flags[j]:ClearOptions()
+            for bg = 1, #b1 do
+                library.flags[j]:AddOption(b1[bg])
+            end
+        end
+        library.flags[j].ClearOptions = function(self)
+            local bj = b6:GetChildren()
+            for bg = 1, #bj do
+                local n = bj[bg]
+                if n:IsA("TextButton") then
+                    n:Destroy()
+                end
+            end
+        end
+        library.flags[j].AddOption = function(self, bh)
+            local bk = f("TextButton")
+            local bl = f("UICorner")
+            bk.Name = bh
+            bk.Parent = b6
+            bk.BackgroundColor3 = e(58, 69, 80)
+            bk.BorderSizePixel = 0
+            bk.Size = d(0, 300, 0, 28)
+            bk.AutoButtonColor = false
+            bk.Font = Enum.Font.GothamSemibold
+            bk.Text = bh
+            bk.TextColor3 = e(255, 255, 255)
+            bk.TextSize = 14.000
+            bl.CornerRadius = c(0, 6)
+            bl.Name = "OptionCorner"
+            bl.Parent = bk
+            bk.MouseButton1Click:Connect(
+                function()
+                    b4.PlaceholderText = bh
+                    b4.Text = ""
+                    library.flags[j].State = bh
+                    task.spawn(bi)
+                    aj(bh)
+                end
+            )
+        end
+        library.flags[j].RemoveOption = function(self, bh)
+            b6:WaitForChild(bh):Destroy()
+        end
+        library.flags[j]:SetOptions(b1)
+    end
+    function ag:NewBox(ai, j, aj)
+        local aj = aj or g
+        local aM = f("TextButton")
+        local aN = f("UICorner")
+        local aS = f("TextBox")
+        local aT = f("UICorner")
+        aM.Name = "SliderModule"
+        aM.Parent = ad
+        aM.BackgroundColor3 = e(52, 62, 72)
+        aM.BorderSizePixel = 0
+        aM.Position = d(0, 0, -0.140425533, 0)
+        aM.Size = d(0, 312, 0, 28)
+        aM.AutoButtonColor = false
+        aM.Font = Enum.Font.GothamSemibold
+        aM.Text = "  " .. ai
+        aM.TextColor3 = e(255, 255, 255)
+        aM.TextSize = 14.000
+        aM.TextXAlignment = Enum.TextXAlignment.Left
+        aN.CornerRadius = c(0, 6)
+        aN.Name = "BoxButtonCorner"
+        aN.Parent = aM
+        aS.Name = "Box"
+        aS.Parent = aM
+        aS.BackgroundColor3 = e(58, 69, 80)
+        aS.BorderSizePixel = 0
+        aS.Position = d(0.774615362, 0, 0.178571433, 0)
+        aS.Size = d(0, 65, 0, 18)
+        aS.Font = Enum.Font.Gotham
+        aS.Text = ""
+        aS.PlaceholderText = j
+        aS.TextColor3 = e(255, 255, 255)
+        aS.TextSize = 12.000
+        aT.CornerRadius = c(0, 4)
+        aT.Name = "BoxCorner"
+        aT.Parent = aS
+        aS.FocusLost:Connect(
+            function(bm)
+                if not bm then
+                    return
+                else
+                    aj(aS.Text)
+                    if getgenv().ClearTextBoxText then
+                        wait(0.10)
+                        aS.Text = ""
+                    end
+                end
+            end
+        )
+    end
+    return ag
+end
+setmetatable(
+    getgenv().library,
+    {__newindex = function(self, bn, bo)
+            if bn == "Name" then
+                x.Text = "   " .. bo
+                return true
+            end
+            rawset(self, bn, bo)
+        end}
+)
+--分界线
+--忍者源码
+local LBLG = Instance.new("ScreenGui", getParent)
+local LBL = Instance.new("TextLabel", getParent)
+local player = game.Players.LocalPlayer
+
+LBLG.Name = "LBLG"
+LBLG.Parent = game.CoreGui
+LBLG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LBLG.Enabled = true
+LBL.Name = "LBL"
+LBL.Parent = LBLG
+LBL.BackgroundColor3 = Color3.new(5, 1, 1)
+LBL.BackgroundTransparency = 1
+LBL.BorderColor3 = Color3.new(1, 0, 0)
+LBL.Position = UDim2.new(0.75,0,0.010,0)
+LBL.Size = UDim2.new(0, 133, 0, 30)
+LBL.Font = Enum.Font.GothamSemibold
+LBL.Text = "TextLabel"
+LBL.TextColor3 = Color3.new(10, 5, 1)
+LBL.TextScaled = true
+LBL.TextSize = 14
+LBL.TextWrapped = true
+LBL.Visible = true
+
+local FpsLabel = LBL
+local Heartbeat = game:GetService("RunService").Heartbeat
+local LastIteration, Start
+local FrameUpdateTable = { }
+
+local function HeartbeatUpdate()
+	LastIteration = tick()
+	for Index = #FrameUpdateTable, 1, -1 do
+		FrameUpdateTable[Index + 1] = (FrameUpdateTable[Index] >= LastIteration - 1) and FrameUpdateTable[Index] or nil
+	end
+	FrameUpdateTable[1] = LastIteration
+	local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
+	CurrentFPS = CurrentFPS - CurrentFPS % 1
+	FpsLabel.Text = ("北京时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
+end
+Start = tick()
+Heartbeat:Connect(HeartbeatUpdate)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "绿脚本加载中🥰",
+    Text = "",
+    Duration = 3, 
+})
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "欢迎使用绿脚本",
+    Text = "祝您生活愉快😍",
+    Duration = 7, 
+})
+autoswing = false
+function swinging()
+    spawn(
+        function()
+            while autoswing == true do
+                task.wait()
+                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("swingKatana")
+                if not autoswing then
+                    break
+                end
+            end
+        end
+    )
+end
+autosell = false
+function selling()
+    spawn(
+        function()
+            while autosell == true do
+                task.wait(.01)
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
+                        game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame
+                    wait(.1)
+                    game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
+                        game.Workspace.Part.CFrame
+                    if not autosell then
+                        break
+                    end
+                end
+            end
+        end
+    )
+end
+autosellmax = false
+function maxsell()
+    spawn(
+        function()
+            while autosellmax == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    if game.Players.LocalPlayer.PlayerGui.gameGui.maxNinjitsuMenu.Visible == true then
+                        game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
+                            game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame
+                        task.wait()
+                        game.workspace.sellAreaCircles["sellAreaCircle7"].circleInner.CFrame =
+                            game.Workspace.Part.CFrame
+                    end
+                end
+                if not autosellmax then
+                    break
+                end
+            end
+        end
+    )
+end
+autobuyswords = false
+function buyswords()
+    spawn(
+        function()
+            while autobuyswords == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    local oh1 = "buyAllSwords"
+                    local oh2 = {
+                        "Ground",
+                        "Astral Island",
+                        "Space Island",
+                        "Tundra Island",
+                        "Eternal Island",
+                        "Sandstorm",
+                        "Thunderstorm",
+                        "Ancient Inferno Island",
+                        "Midnight Shadow Island",
+                        "Mythical Souls Island",
+                        "Winter Wonder Island"
+                    }
+                    for i = 1, #oh2 do
+                        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
+                    end
+                end
+                if not autobuyswords then
+                    break
+                end
+            end
+        end
+    )
+end
+autobuybelts = false
+function buybelts()
+    spawn(
+        function()
+            while autobuybelts == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    local oh1 = "buyAllBelts"
+                    local oh2 = {
+                        "Ground",
+                        "Astral Island",
+                        "Space Island",
+                        "Tundra Island",
+                        "Eternal Island",
+                        "Sandstorm",
+                        "Thunderstorm",
+                        "Ancient Inferno Island",
+                        "Midnight Shadow Island",
+                        "Mythical Souls Island",
+                        "Winter Wonder Island"
+                    }
+                    for i = 1, #oh2 do
+                        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
+                    end
+                end
+                if not autobuybelts then
+                    break
+                end
+            end
+        end
+    )
+end
+autobuyranks = false
+function buyranks()
+    spawn(
+        function()
+            while autobuyranks == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    local oh1 = "buyRank"
+                    local oh2 = game:GetService("ReplicatedStorage").Ranks.Ground:GetChildren()
+                    for i = 1, #oh2 do
+                        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i].Name)
+                    end
+                end
+                if not autobuyranks then
+                    break
+                end
+            end
+        end
+    )
+end
+autobuyskill = false
+function buyskill()
+    spawn(
+        function()
+            while autobuyskill == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    local oh1 = "buyAllSkills"
+                    local oh2 = {
+                        "Ground",
+                        "Astral Island",
+                        "Space Island",
+                        "Tundra Island",
+                        "Eternal Island",
+                        "Sandstorm",
+                        "Thunderstorm",
+                        "Ancient Inferno Island",
+                        "Midnight Shadow Island",
+                        "Mythical Souls Island",
+                        "Winter Wonder Island"
+                    }
+                    for i = 1, #oh2 do
+                        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
+                    end
+                end
+                if not autobuyskill then
+                    break
+                end
+            end
+        end
+    )
+end
+autobuyshurikens = false
+function buyshurikens()
+    spawn(
+        function()
+            while autobuyshurikens == true do
+                task.wait()
+                if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+                    local oh1 = "buyAllShurikens"
+                    local oh2 = {
+                        "Ground",
+                        "Astral Island",
+                        "Space Island",
+                        "Tundra Island",
+                        "Eternal Island",
+                        "Sandstorm",
+                        "Thunderstorm",
+                        "Ancient Inferno Island",
+                        "Midnight Shadow Island",
+                        "Mythical Souls Island",
+                        "Winter Wonder Island"
+                    }
+                    for i = 1, #oh2 do
+                        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
+                    end
+                end
+                if not autobuyshurikens then
+                    break
+                end
+            end
+        end
+    )
+end
+
+local win1 = library:CreateTab("功能1😆");
+win1:NewButton("飞行脚本", function()--演示
+     loadstring(game:HttpGet('https://pastebin.com/raw/U27yQRxS'))()
+    print("btn3");
+end)
+win1:NewToggle("自动挥刀", "0", false, function(x)
+    print(bool)
+            autoswing = x
+            if autoswing then
+                swinging()
+            end
+        
+	end)
+
+win1:NewToggle("自动售卖", "1", false, function(x)
+    print(bool)
+            autosell = x
+            if autosell then
+                selling()
+            end
+        
+	end)
+	win1:NewToggle("背包满了再卖（测试）", "2", false, function(x)
+    print(bool)
+            autosellmax = x
+            if autosellmax then
+                maxsell()
+            end
+    
+	end)
+	win1:NewToggle("自动买刀", "id3", false, function(x)
+    print(bool)
+            autobuyswords = x
+            if autobuyswords then
+                buyswords()
+            end
+        
+	end)
+	
+	win1:NewToggle("自动买腰带", "id4", false, function(x)
+    print(bool)
+            autobuybelts = x
+            if autobuybelts then
+                buybelts()
+            end
+        
+	end)
+	win1:NewToggle("自动买等级", "id5", false, function(x)
+    print(bool)
+            autobuyranks = x
+            if autobuyranks then
+                buyranks()
+            end
+        
+	end)
+	win1:NewToggle("自动买忍术", "id6", false, function(x)
+    print(bool)
+            autobuyskill = x
+            if autobuyskill then
+                buyskill()
+            end
+        
+	end)
+
+local win2 = library:CreateTab("功能2😔");
+win2:NewButton("杀死所有人（安全区除外）", function()
+    print("btn3");
+               for i,v in pairs(game.Players:GetChildren()) do
+            	if v.Name~=game.Players.LocalPlayer then
+            		 for a=1,50 do
+            		 	            		    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=v.Character.HumanoidRootPart.CFrame+ Vector3.new(0, .4, 2)
+            		 	
+            		 		task.wait()
+            		  if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
+            if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then 
+                game.Players.LocalPlayer.ninjaEvent:FireServer("swingKatana")
+            else
+                for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+                    if v.ClassName == "Tool" and v:FindFirstChild("attackShurikenScript") then 
+                        game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+					end
+                        if v.ClassName == "Tool" and v:FindFirstChild("attackKatanaScript") then 
+                            game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)                            
+                        end
+                end
+               end
+     
+        
+            
+       
+				end
+			end
+		end
+	
+			
+			end
+   
+end)
+
+win2:NewButton("将连续跳跃次数设置成10000", function()
+    print("btn3");
+    game.Players.LocalPlayer.multiJumpCount.Value = "10000"
+end)
+win2:NewButton("收集所有宝箱", function()
+    print("btn3");
+         game:GetService("Workspace").mythicalChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").goldenChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").enchantedChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").magmaChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").legendsChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").eternalChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").saharaChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").thunderChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").ancientChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").midnightShadowChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").groupRewardsCircle["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace")["Daily Chest"].circleInner.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace")["wonderChest"].circleInner.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		wait(3.5)
+		game:GetService("Workspace").wonderChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game:GetService("Workspace").midnightShadowChest["circleInner"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game:GetService("Workspace").ancientChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").midnightShadowChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").thunderChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").saharaChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").eternalChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").legendsChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").magmaChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").enchantedChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").goldenChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").mythicalChest["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace").groupRewardsCircle["circleInner"].CFrame = game.Workspace.Part.CFrame
+		game:GetService("Workspace")["Daily Chest"].circleInner.CFrame = game.Workspace.Part.CFrame
+end)
+win2:NewButton("解锁所有岛", function()
+    print("btn3");
+            for i,v in next, game.workspace.islandUnlockParts:GetChildren() do 
+        if v then 
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.islandSignPart.CFrame -Vector3.new(0,80, 0)
+           wait(0.5)
+        end
+    end
+end)
+local win3 = library:CreateTab("详情🌝");
+win3:NewButton("查看详情", function()
+    library:SelectNotify{
+        Title = "官方交流群",
+        Text = "827956094",
+        TrueText = "收到",
+        FalseText = "",
+        Callback = function()
+            print("我按了按钮");
+        end,
+        Duration = 5, -- 几秒后消失
+    }
+
+end)

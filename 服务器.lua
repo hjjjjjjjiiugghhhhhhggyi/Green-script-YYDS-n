@@ -84,7 +84,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script-YYDS-n/main/%E7%BB%BF%E8%84%9A%E6%9C%AC%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87%20(1).lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script-YYDS-n/main/%E7%BB%BF%E8%84%9A%E6%9C%ACEvade%20(1).lua", true))()
 
 elseif game.PlaceId == 537413528  then 
 CoreGui:SetCore("SendNotification", {

@@ -88,5 +88,5 @@ if _G.whitelisted==true then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script-YYDS-n/main/%E6%9C%8D%E5%8A%A1%E5%99%A8.lua",true))()
     else
  
-game.Players.LocalPlayer:Kick(a.."你没有被列入白名单,请找群主反馈,QQ群号是861422667")
+game.Players.LocalPlayer:Kick(a.."你没有被列入白名单,请找群主反馈,QQ群号是884066548")
 end

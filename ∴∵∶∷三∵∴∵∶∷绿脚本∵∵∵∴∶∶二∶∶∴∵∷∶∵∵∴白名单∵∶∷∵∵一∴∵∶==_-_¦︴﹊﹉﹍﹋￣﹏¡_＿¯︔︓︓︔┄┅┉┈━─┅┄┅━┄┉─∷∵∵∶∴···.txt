@@ -57,7 +57,7 @@ elseif a=="fuyi8888"then
 _G.whitelisted=true
 elseif a=="pwooroopjdjs"then
 _G.whitelisted=true
-elseif a=="1599ghj"then
+elseif a=="alqwertyuiopggg"then
 _G.whitelisted=true
 elseif a=="1599ghj"then
 _G.whitelisted=true
